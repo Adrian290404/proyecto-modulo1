@@ -38,4 +38,24 @@
             left: 0;
         }
     }
+    &__image-container{
+        position: relative;
+        padding-top: 350px;
+        &__labtop-image{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+    &__information{
+        font-family: "Raleway", sans-serif;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 35px;
+        color: #000000;
+        text-align: center;
+        margin: 0 30px;
+        margin-top: -25px;
+    }
 }

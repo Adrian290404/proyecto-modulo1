@@ -12,6 +12,7 @@ html, body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .header {
@@ -82,4 +83,24 @@ html, body {
   position: absolute;
   bottom: 0;
   left: 0;
+}
+.main__why-us__image-container {
+  position: relative;
+  padding-top: 350px;
+}
+.main__why-us__image-container__labtop-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.main__why-us__information {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 35px;
+  color: #000000;
+  text-align: center;
+  margin: 0 30px;
+  margin-top: -25px;
 }/*# sourceMappingURL=styles.css.map */
