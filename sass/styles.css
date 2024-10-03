@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-width: 320px;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  margin: 0 auto;
+  height: 70px;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.2901960784) 0px 3px 6px 0px;
+  position: relative;
+}
+.header__title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 37px;
+  color: #08A6E4;
+  padding: 15px 25px;
+  letter-spacing: -1px;
+}
+.header__dropdown {
+  position: absolute;
+  width: 20px;
+  height: 12px;
+  top: 29px;
+  right: 25px;
+  color: #08A6E4;
+}
+.header__nav {
+  display: none;
+}/*# sourceMappingURL=styles.css.map */
