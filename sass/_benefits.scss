@@ -1,0 +1,83 @@
+.benefits{
+    background-color: #F7F7F7;
+    padding-top: 50px;
+    &__box{
+        background-color: #FFFFFF;
+        border: 1px solid #E8E9ED;
+        border-radius: 5px;
+        max-width: 315px;
+        max-height: 370px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        &__image-container{
+            margin-top: 95px;
+            position: relative;
+            &__image{
+                display: inline-block;
+                z-index: 10;
+                &.image--labtop{
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(calc(-50% - 8px), -50%);
+                }
+                &.image--phone{
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(calc(-50% + 26px), calc(-50% - 10px));
+                }
+            }
+            &__circle{
+                display: inline-block;
+                &.circle--red{
+                    width: 90.12px;
+                    height: 90.12px;
+                    border-radius: 41px;
+                    background-color: #FB3B64;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(calc(-50% + 50px), calc(-50% - 30px)) rotate(45deg);
+                } 
+                &.circle--blue{
+                    width: 131.88px;
+                    height: 131.7px;
+                    border-radius: 50%;
+                    background-color: #08A6E4;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, calc(-50% - 18px));
+                } 
+            }
+        }
+    }
+    &__title{
+        font-family: "Raleway", sans-serif;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 35.22px;
+        &.title--be-always-first{
+            margin: 20px;
+            margin-top: 175px;
+        }
+        &.title--your-shop{
+            margin: 20px;
+            margin-top: 175px;
+        }
+    }
+    &__subtitle{
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        &.subtitle--be-always-first{
+            margin: 20px;
+            margin-top: 50px;
+        }
+        &.subtitle--your-shop{
+            margin: 20px;
+        }
+    }
+}

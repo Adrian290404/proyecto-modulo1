@@ -43,10 +43,10 @@ html, body {
   display: none;
 }
 
-.main__why-us {
+.why-us {
   background-color: white;
 }
-.main__why-us__sell-more {
+.why-us__sell-more {
   max-width: 310px;
   height: 213px;
   margin: 0 auto;
@@ -54,28 +54,26 @@ html, body {
   text-align: center;
   position: relative;
 }
-.main__why-us__sell-more__title {
+.why-us__sell-more__title {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 35px;
   line-height: 41.09px;
   color: #000000;
 }
-.main__why-us__sell-more__description {
+.why-us__sell-more__description {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 23px;
   margin: 20px;
 }
-.main__why-us__sell-more__button {
+.why-us__sell-more__button {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 22px;
   color: white;
-  width: 100%;
-  height: 67px;
   background-color: #08A6E4;
   box-shadow: rgba(7, 172, 230, 0.2901960784) 5px 10px 14px 0px;
   border-radius: 45px;
@@ -84,17 +82,17 @@ html, body {
   bottom: 0;
   left: 0;
 }
-.main__why-us__image-container {
+.why-us__image-container {
   position: relative;
   padding-top: 350px;
 }
-.main__why-us__image-container__labtop-image {
+.why-us__image-container__labtop-image {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.main__why-us__information {
+.why-us__information {
   font-family: "Raleway", sans-serif;
   font-weight: 300;
   font-size: 30px;
@@ -104,60 +102,60 @@ html, body {
   margin: 0 30px;
   margin-top: -25px;
 }
-.main__why-us__circle-icon {
+.why-us__circle-icon {
   max-width: 200px;
   margin: 0 auto;
   margin-top: 40px;
   text-align: center;
 }
-.main__why-us__circle-icon__image-container {
+.why-us__circle-icon__image-container {
   position: relative;
 }
-.main__why-us__circle-icon__image-container__circle {
+.why-us__circle-icon__image-container__circle {
   border-radius: 50%;
   width: 62.71px;
   height: 62.71px;
   display: inline-block;
   position: absolute;
 }
-.main__why-us__circle-icon__image-container__circle.circle--red {
+.why-us__circle-icon__image-container__circle--red {
   top: 50%;
   left: calc(50% - 40px);
   transform: translateY(-50%);
   background-color: #FB3B64;
 }
-.main__why-us__circle-icon__image-container__circle.circle--blue {
+.why-us__circle-icon__image-container__circle.circle--blue {
   top: 50%;
   left: calc(50% - 32px);
   transform: translateY(-50%);
   background-color: #08A6E4;
 }
-.main__why-us__circle-icon__image-container__circle.circle--green {
+.why-us__circle-icon__image-container__circle.circle--green {
   top: 50%;
   left: calc(50% - 32px);
   transform: translateY(-50%);
   background-color: #55DFB4;
 }
-.main__why-us__circle-icon__image-container__icon {
+.why-us__circle-icon__image-container__icon {
   display: inline-block;
   position: absolute;
 }
-.main__why-us__circle-icon__image-container__icon.icon--person {
+.why-us__circle-icon__image-container__icon.icon--person {
   top: 50%;
   left: calc(50% - 8px);
   transform: translateY(-50%);
 }
-.main__why-us__circle-icon__image-container__icon.icon--eye {
+.why-us__circle-icon__image-container__icon.icon--eye {
   top: 50%;
   left: calc(50% - 13px);
   transform: translateY(-50%);
 }
-.main__why-us__circle-icon__image-container__icon.icon--posts {
+.why-us__circle-icon__image-container__icon.icon--posts {
   top: 50%;
   left: calc(50% - 2px);
   transform: translateY(-50%);
 }
-.main__why-us__circle-icon__number {
+.why-us__circle-icon__number {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 20px;
@@ -167,11 +165,95 @@ html, body {
   padding-top: 45px;
   margin-top: 70px;
 }
-.main__why-us__circle-icon__principal-text {
+.why-us__circle-icon__principal-text {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 17px;
   line-height: 20px;
   color: #A5A5A5;
   margin: 15px 30px 60px 30px;
+}
+
+.benefits {
+  background-color: #F7F7F7;
+  padding-top: 50px;
+}
+.benefits__box {
+  background-color: #FFFFFF;
+  border: 1px solid #E8E9ED;
+  border-radius: 5px;
+  max-width: 315px;
+  max-height: 370px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.benefits__box__image-container {
+  margin-top: 95px;
+  position: relative;
+}
+.benefits__box__image-container__image {
+  display: inline-block;
+  z-index: 10;
+}
+.benefits__box__image-container__image.image--labtop {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(calc(-50% - 8px), -50%);
+}
+.benefits__box__image-container__image.image--phone {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(calc(-50% + 26px), calc(-50% - 10px));
+}
+.benefits__box__image-container__circle {
+  display: inline-block;
+}
+.benefits__box__image-container__circle.circle--red {
+  width: 90.12px;
+  height: 90.12px;
+  border-radius: 41px;
+  background-color: #FB3B64;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(calc(-50% + 50px), calc(-50% - 30px)) rotate(45deg);
+}
+.benefits__box__image-container__circle.circle--blue {
+  width: 131.88px;
+  height: 131.7px;
+  border-radius: 50%;
+  background-color: #08A6E4;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, calc(-50% - 18px));
+}
+.benefits__title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 35.22px;
+}
+.benefits__title.title--be-always-first {
+  margin: 20px;
+  margin-top: 175px;
+}
+.benefits__title.title--your-shop {
+  margin: 20px;
+  margin-top: 175px;
+}
+.benefits__subtitle {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+.benefits__subtitle.subtitle--be-always-first {
+  margin: 20px;
+  margin-top: 50px;
+}
+.benefits__subtitle.subtitle--your-shop {
+  margin: 20px;
 }/*# sourceMappingURL=styles.css.map */

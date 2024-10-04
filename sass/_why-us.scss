@@ -1,4 +1,4 @@
-.main__why-us{
+.why-us{
     background-color: white;
     &__sell-more{
         max-width: 310px;
@@ -27,8 +27,8 @@
             font-size: 16px;
             line-height: 22px;
             color: white;
-            width: 100%;
-            height: 67px;
+            // width: 100%;
+            // height: 67px;
             background-color: #08A6E4;
             box-shadow: #07ACE64A 5px 10px 14px 0px ;
             border-radius: 45px;
@@ -40,7 +40,7 @@
     }
     &__image-container{
         position: relative;
-        padding-top: 350px;
+        padding-top: 350px;//em
         &__labtop-image{
             position: absolute;
             top: 50%;
@@ -65,13 +65,13 @@
         text-align: center;
         &__image-container{
             position: relative;
-            &__circle{
+            &__circle{//coger imagenes
                 border-radius: 50%;
                 width: 62.71px;
                 height: 62.71px;
                 display: inline-block;
                 position: absolute;
-                &.circle--red{
+                &--red{
                     top: 50%;                    
                     left: calc(50% - 40px);                   
                     transform: translateY(-50%);
