@@ -92,22 +92,17 @@ html, body {
   line-height: 35px;
   color: #000000;
   text-align: center;
-  margin: 0 30px;
-  margin-top: -25px;
+  margin: 0 1.2em;
+  margin-top: -1.5em;
 }
 .why-us__circle-icon {
-  max-width: 200px;
-  margin: 0 auto;
-  margin-top: 40px;
+  margin: 0 5em;
   text-align: center;
 }
 .why-us__circle-icon__image-container {
   position: relative;
 }
 .why-us__circle-icon__image-container__circle {
-  border-radius: 50%;
-  width: 62.71px;
-  height: 62.71px;
   display: inline-block;
   position: absolute;
 }
@@ -115,35 +110,32 @@ html, body {
   top: 50%;
   left: calc(50% - 40px);
   transform: translateY(-50%);
-  background-color: #FB3B64;
 }
-.why-us__circle-icon__image-container__circle.circle--blue {
+.why-us__circle-icon__image-container__circle--blue {
   top: 50%;
   left: calc(50% - 32px);
   transform: translateY(-50%);
-  background-color: #08A6E4;
 }
-.why-us__circle-icon__image-container__circle.circle--green {
+.why-us__circle-icon__image-container__circle--green {
   top: 50%;
   left: calc(50% - 32px);
   transform: translateY(-50%);
-  background-color: #55DFB4;
 }
 .why-us__circle-icon__image-container__icon {
   display: inline-block;
   position: absolute;
 }
-.why-us__circle-icon__image-container__icon.icon--person {
+.why-us__circle-icon__image-container__icon--person {
   top: 50%;
   left: calc(50% - 8px);
   transform: translateY(-50%);
 }
-.why-us__circle-icon__image-container__icon.icon--eye {
+.why-us__circle-icon__image-container__icon--eye {
   top: 50%;
   left: calc(50% - 13px);
   transform: translateY(-50%);
 }
-.why-us__circle-icon__image-container__icon.icon--posts {
+.why-us__circle-icon__image-container__icon--posts {
   top: 50%;
   left: calc(50% - 2px);
   transform: translateY(-50%);
@@ -155,8 +147,8 @@ html, body {
   line-height: 24px;
   letter-spacing: 5.96px;
   color: #000000;
-  padding-top: 45px;
-  margin-top: 70px;
+  padding-top: 2.3em;
+  margin-top: 3em;
 }
 .why-us__circle-icon__principal-text {
   font-family: "Raleway", sans-serif;
@@ -164,7 +156,7 @@ html, body {
   font-size: 17px;
   line-height: 20px;
   color: #A5A5A5;
-  margin: 15px 30px 60px 30px;
+  margin: 1em 3em 3.5em 3em;
 }
 
 .benefits {

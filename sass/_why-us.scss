@@ -7,55 +7,47 @@
         line-height: 35px;
         color: #000000;
         text-align: center;
-        margin: 0 30px;
-        margin-top: -25px;
+        margin: 0 1.2em;
+        margin-top: -1.5em;
     }
     &__circle-icon{
-        max-width: 200px;
-        margin: 0 auto;
-        margin-top: 40px;
+        margin: 0 5em;
         text-align: center;
         &__image-container{
             position: relative;
-            &__circle{//coger imagenes
-                border-radius: 50%;
-                width: 62.71px;
-                height: 62.71px;
+            &__circle{
                 display: inline-block;
                 position: absolute;
                 &--red{
                     top: 50%;                    
                     left: calc(50% - 40px);                   
                     transform: translateY(-50%);
-                    background-color: #FB3B64;
                 }
-                &.circle--blue{
+                &--blue{
                     top: 50%;                    
                     left: calc(50% - 32px);                   
                     transform: translateY(-50%);
-                    background-color: #08A6E4;
                 }
-                &.circle--green{
+                &--green{
                     top: 50%;                    
                     left: calc(50% - 32px);                   
                     transform: translateY(-50%);
-                    background-color: #55DFB4;
                 }
             }
             &__icon{
                 display: inline-block;
                 position: absolute;
-                &.icon--person{
+                &--person{
                     top: 50%;                    
                     left: calc(50% - 8px);            
                     transform: translateY(-50%);
                 }
-                &.icon--eye{
+                &--eye{
                     top: 50%;                    
                     left: calc(50% - 13px);            
                     transform: translateY(-50%);
                 }
-                &.icon--posts{
+                &--posts{
                     top: 50%;                    
                     left: calc(50% - 2px);            
                     transform: translateY(-50%);
@@ -69,8 +61,8 @@
             line-height: 24px;
             letter-spacing: 5.96px;
             color: #000000;
-            padding-top: 45px;
-            margin-top: 70px;
+            padding-top: 2.3em;
+            margin-top: 3em;
         }
         &__principal-text{
             font-family: "Raleway", sans-serif;
@@ -78,7 +70,7 @@
             font-size: 17px;
             line-height: 20px;
             color: #A5A5A5;
-            margin: 15px 30px 60px 30px;
+            margin: 1em 3em 3.5em 3em;
         }
     }
 }
