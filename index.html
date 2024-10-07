@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oxygen Shop</title>
     <link rel="stylesheet" href="sass/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -13,9 +12,9 @@
 </head>
 <body>
     <header class="header">
-        <article class="header__up">
+        <article class="header__up"><!--nav-->
             <p class="header__up__title">OXYGEN Shop</p>
-            <i class="fa-solid fa-bars header__up__dropdown"></i>
+            <img class="header__up__dropdown" src="img/Menu.png"></img>
             <nav class="header__up__nav">
                 <p>WHY US</p>
                 <p>BENEFITS</p>
@@ -32,10 +31,10 @@
             <img class="header__image-container__labtop-image" src="https://s3-alpha-sig.figma.com/img/c3f9/6a42/6648411f57f04aff84de5d247f55d2a8?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=e~GGdQC79of9oG6mNSuQv7Pof9SpatO5AbDJW7lqr0xOu3xEEDGc1HEJ4ufdbYIvGY1ZKErUEk-zBhdpo9VrOlv38LpjmELZBj1SE4AE58cd~jsq2uYecjlEO5vAcjXs72u9nsUWObGtduFgW-HK0OwctrewDVYGakA~X5Qz~i9o-TW2N13GvXAAtjO6QkBpTngfS9x6JIsDEKpCptzDdMgR49gfUgx4dzq0tP3OY5hC~Rumq5Qu0QUvnvGYlKkxaPP538lNswDXHYSgSEwOXJv67mw69auTLzEky3xNQKG11YZcfHiYPgKXeJqPuMXpARRagsgDj5oxMOb9zeEmiw__">
         </article> 
     </header>
-    <main>
+    <main><!--no hace falta main-->
         <section class="why-us">
             <p class="why-us__information">The most popular sales platform in country</p>      
-            <article class="why-us__circle-icon">
+            <article class="why-us__circle-icon"><!-- Hacer 3 article -->
                 <div class="why-us__circle-icon__image-container">
                     <img class="why-us__circle-icon__image-container__circle why-us__circle-icon__image-container__circle--red" src="img/EllipseRed.png"></img>
                     <img class="why-us__circle-icon__image-container__icon why-us__circle-icon__image-container__icon--person" src="img/PersonIcon.png">
@@ -151,6 +150,7 @@
                 </div>
                 <div class="pricing__offer__right">
                     <div class="pricing__offer__right__line">
+                        <!-- li -->
                         <img class="pricing__offer__right__line__checkbox-cross" src="img/Checkbox.png"></img>
                         <p class="pricing__offer__right__line__text">2 GB HDD</p>
                     </div>
@@ -172,6 +172,29 @@
                     </div>
                 </div>
                 <button class="pricing__offer__button pricing__offer__button--premium">Begin</button>
+            </article>
+        </section>
+        <section class="contact">
+            <p class="contact__title">Any questions?</p>
+            <p class="contact__subtitle">Leave your email address or call us!</p>
+            <article class="contact__info">
+                <img class="contact__info__image" src="img/mailIcon.png">
+                <p class="contact__info__text">info@bestshop.xyz</p>
+            </article>
+            <article class="contact__info">
+                <img class="contact__info__image" src="img/phoneIcon.png">
+                <p class="contact__info__text">123 456 789</p>
+            </article>
+            <article class="contact__details">
+                <label class="contact__details__label" for="name">NAME</label>
+                <input type="text" class="contact__details__input" id = "name" name = "name">
+                <label class="contact__details__label" for="email">EMAIL</label>
+                <input type="text" class="contact__details__input" id = "email" name = "email">
+            </article>
+            <article class="contact__terms-conditions">
+                <input type="checkbox" class="contact__terms-conditions__checkbox">
+                <p class="contact__terms-conditions__text">I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process under the European Parliament’s and Council of the European Union Regulation on the Protection of Natural Persons as of 27 April 2016, with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (Data Protection Directive)</p>
+                <button class="contact__terms-conditions__button">Send</button>
             </article>
         </section>
     </main>

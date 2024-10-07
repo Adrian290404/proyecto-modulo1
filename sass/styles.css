@@ -362,4 +362,99 @@ html, body {
 }
 .pricing__offer__button--premium {
   background-color: #55DFB4;
+}
+
+.contact {
+  margin-top: 5.5em;
+  margin-left: 2em;
+}
+.contact__title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 46.96px;
+}
+.contact__subtitle {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 0.3em;
+  margin-bottom: 2em;
+}
+.contact__info {
+  position: relative;
+}
+.contact__info__image {
+  display: inline;
+}
+.contact__info__text {
+  display: inline;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #A5A5A5;
+  position: absolute;
+  top: 0.1em;
+  left: 2.2em;
+}
+.contact__details {
+  margin-top: 2.8em;
+}
+.contact__details__label {
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 14.98px;
+  color: #08A6E4;
+  letter-spacing: 3.28px;
+  margin-bottom: 2em;
+}
+.contact__details__input {
+  display: block;
+  width: 23em;
+  border: none;
+  border-bottom: 1px solid #95989A;
+  margin-bottom: 3.5em;
+}
+.contact__terms-conditions {
+  position: relative;
+  margin-bottom: 20.5em;
+}
+.contact__terms-conditions__checkbox {
+  position: absolute;
+  width: 2em;
+  height: 2em;
+  border: 1px #95989A solid;
+  border-radius: 4px;
+  accent-color: #FFFFFF;
+}
+.contact__terms-conditions__text {
+  position: absolute;
+  left: 3em;
+  max-width: 23em;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16.34px;
+  color: #707070;
+}
+.contact__terms-conditions__button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(calc(-50% + 3.5em), calc(-50% + 16em));
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 17.7px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  padding: 1.2em 6em;
+  border: none;
+  border-radius: 35px;
+  background-color: #08A6E4;
+  box-shadow: rgba(7, 172, 230, 0.2901960784) 5px 10px 14px 0px;
 }/*# sourceMappingURL=styles.css.map */

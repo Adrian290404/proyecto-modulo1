@@ -1,0 +1,94 @@
+.contact{
+    margin-top: 5.5em;
+    margin-left: 2em;
+    &__title{
+        font-family: "Raleway", sans-serif;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 46.96px;
+    }
+    &__subtitle{
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        margin-top: .3em;
+        margin-bottom: 2em;
+    }
+    &__info{
+        position: relative;
+        &__image{
+            display: inline;
+        }
+        &__text{
+            display: inline;
+            font-family: "Open Sans", sans-serif;
+            font-weight: 600;
+            font-size: 16px;//rem
+            line-height: 22px;//rem
+            color: #A5A5A5;
+            position: absolute;
+            top: .1em;
+            left: 2.2em;
+        }
+    }
+    &__details{
+        margin-top: 2.8em;
+        &__label{
+            display: block;
+            font-family: "Open Sans", sans-serif;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 14.98px;
+            color: #08A6E4;
+            letter-spacing: 3.28px;
+            margin-bottom: 2em;
+        }
+        &__input{
+            display: block;
+            width: 23em;
+            border: none;
+            border-bottom: 1px solid #95989A;
+            margin-bottom: 3.5em;
+        }
+    }
+    &__terms-conditions{
+        position: relative;
+        margin-bottom: 20.5em;
+        &__checkbox{
+            position: absolute;
+            width: 2em;
+            height: 2em;
+            border: 1px #95989A  solid;
+            border-radius: 4px;
+            accent-color: #FFFFFF;
+        }
+        &__text{
+            position: absolute;
+            left: 3em;
+            max-width: 23em;
+            font-family: "Open Sans", sans-serif;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 16.34px;
+            color: #707070;
+        }
+        &__button{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(calc(-50% + 3.5em), calc(-50% + 16em));
+            font-family: "Open Sans", sans-serif;
+            font-weight: 700;
+            font-size: 13px;
+            line-height: 17.7px;
+            letter-spacing: 2px;
+            color: #FFFFFF;
+            padding: 1.2em 6em;
+            border: none;
+            border-radius: 35px;
+            background-color: #08A6E4;
+            box-shadow: #07ACE64A 5px 10px 14px 0px ;
+        }
+    }
+}
