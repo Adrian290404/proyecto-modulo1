@@ -161,19 +161,18 @@ html, body {
 
 .benefits {
   background-color: #F7F7F7;
-  padding-top: 50px;
+  padding-top: 3.3em;
 }
 .benefits__box {
   background-color: #FFFFFF;
   border: 1px solid #E8E9ED;
   border-radius: 5px;
-  max-width: 315px;
-  max-height: 370px;
+  max-width: 19.6em;
   margin: 0 auto;
-  margin-bottom: 50px;
+  margin-bottom: 3.1em;
 }
 .benefits__box__image-container {
-  margin-top: 95px;
+  margin-top: 6em;
   position: relative;
 }
 .benefits__box__image-container__image {
@@ -184,36 +183,30 @@ html, body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(calc(-50% - 8px), -50%);
+  transform: translate(calc(-50% - 0.5em), -50%);
 }
 .benefits__box__image-container__image.image--phone {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(calc(-50% + 26px), calc(-50% - 10px));
+  transform: translate(calc(-50% + 1.6em), calc(-50% - 0.6em));
 }
 .benefits__box__image-container__circle {
   display: inline-block;
 }
-.benefits__box__image-container__circle.circle--red {
-  width: 90.12px;
-  height: 90.12px;
+.benefits__box__image-container__circle--red {
   border-radius: 41px;
-  background-color: #FB3B64;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(calc(-50% + 50px), calc(-50% - 30px)) rotate(45deg);
+  transform: translate(calc(-50% + 3em), calc(-50% - 1.8em));
 }
-.benefits__box__image-container__circle.circle--blue {
-  width: 131.88px;
-  height: 131.7px;
+.benefits__box__image-container__circle--blue {
   border-radius: 50%;
-  background-color: #08A6E4;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, calc(-50% - 18px));
+  transform: translate(-50%, calc(-50% - 1.1em));
 }
 .benefits__title {
   font-family: "Raleway", sans-serif;
@@ -222,12 +215,12 @@ html, body {
   line-height: 35.22px;
 }
 .benefits__title.title--be-always-first {
-  margin: 20px;
-  margin-top: 175px;
+  margin: 0.6em;
+  margin-top: 5.6em;
 }
 .benefits__title.title--your-shop {
-  margin: 20px;
-  margin-top: 175px;
+  margin: 0.6em;
+  margin-top: 5.6em;
 }
 .benefits__subtitle {
   font-family: "Open Sans", sans-serif;
@@ -236,9 +229,12 @@ html, body {
   line-height: 21px;
 }
 .benefits__subtitle.subtitle--be-always-first {
-  margin: 20px;
-  margin-top: 50px;
+  margin: 1.6em;
+  margin-top: 3em;
+  padding-bottom: 0.6em;
 }
 .benefits__subtitle.subtitle--your-shop {
-  margin: 20px;
+  margin: 1.6em;
+  margin-top: 0.7em;
+  padding-bottom: 0.5em;
 }/*# sourceMappingURL=styles.css.map */

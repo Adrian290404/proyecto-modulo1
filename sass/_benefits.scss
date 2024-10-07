@@ -1,16 +1,15 @@
 .benefits{
     background-color: #F7F7F7;
-    padding-top: 50px;
+    padding-top: 3.3em;
     &__box{
         background-color: #FFFFFF;
         border: 1px solid #E8E9ED;
         border-radius: 5px;
-        max-width: 315px;
-        max-height: 370px;
+        max-width: 19.6em;
         margin: 0 auto;
-        margin-bottom: 50px;
+        margin-bottom: 3.1em;
         &__image-container{
-            margin-top: 95px;
+            margin-top: 6em;
             position: relative;
             &__image{
                 display: inline-block;
@@ -19,36 +18,30 @@
                     position: absolute;
                     top: 50%;
                     left: 50%;
-                    transform: translate(calc(-50% - 8px), -50%);
+                    transform: translate(calc(-50% - .5em), -50%);
                 }
                 &.image--phone{
                     position: absolute;
                     top: 50%;
                     left: 50%;
-                    transform: translate(calc(-50% + 26px), calc(-50% - 10px));
+                    transform: translate(calc(-50% + 1.6em), calc(-50% - .6em));
                 }
             }
             &__circle{
                 display: inline-block;
-                &.circle--red{
-                    width: 90.12px;
-                    height: 90.12px;
+                &--red{
                     border-radius: 41px;
-                    background-color: #FB3B64;
                     position: absolute;
                     top: 50%;
                     left: 50%;
-                    transform: translate(calc(-50% + 50px), calc(-50% - 30px)) rotate(45deg);
+                    transform: translate(calc(-50% + 3em), calc(-50% - 1.8em));
                 } 
-                &.circle--blue{
-                    width: 131.88px;
-                    height: 131.7px;
+                &--blue{
                     border-radius: 50%;
-                    background-color: #08A6E4;
                     position: absolute;
                     top: 50%;
                     left: 50%;
-                    transform: translate(-50%, calc(-50% - 18px));
+                    transform: translate(-50%, calc(-50% - 1.1em));
                 } 
             }
         }
@@ -59,12 +52,12 @@
         font-size: 32px;
         line-height: 35.22px;
         &.title--be-always-first{
-            margin: 20px;
-            margin-top: 175px;
+            margin: .6em;
+            margin-top: 5.6em;
         }
         &.title--your-shop{
-            margin: 20px;
-            margin-top: 175px;
+            margin: .6em;
+            margin-top: 5.6em;
         }
     }
     &__subtitle{
@@ -73,11 +66,14 @@
         font-size: 14px;
         line-height: 21px;
         &.subtitle--be-always-first{
-            margin: 20px;
-            margin-top: 50px;
+            margin: 1.6em;
+            margin-top: 3em;
+            padding-bottom: .6em;
         }
         &.subtitle--your-shop{
-            margin: 20px;
+            margin: 1.6em;
+            margin-top: .7em;
+            padding-bottom: .5em;
         }
     }
 }
