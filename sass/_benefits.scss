@@ -8,41 +8,54 @@
         max-width: 19.6em;
         margin: 0 auto;
         margin-bottom: 3.1em;
+        &--last{
+            margin-bottom: 6em;
+        }
         &__image-container{
             margin-top: 6em;
             position: relative;
             &__image{
                 display: inline-block;
                 z-index: 10;
-                &.image--labtop{
+                &--labtop{
                     position: absolute;
                     top: 50%;
                     left: 50%;
                     transform: translate(calc(-50% - .5em), -50%);
                 }
-                &.image--phone{
+                &--phone{
                     position: absolute;
                     top: 50%;
                     left: 50%;
                     transform: translate(calc(-50% + 1.6em), calc(-50% - .6em));
                 }
+                &--trumpet{
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(calc(-50% - 1.2em), calc(-50% + 3.3em));
+                }
             }
-            &__circle{
+            &__bg{
                 display: inline-block;
                 &--red{
-                    border-radius: 41px;
                     position: absolute;
                     top: 50%;
                     left: 50%;
                     transform: translate(calc(-50% + 3em), calc(-50% - 1.8em));
                 } 
                 &--blue{
-                    border-radius: 50%;
                     position: absolute;
                     top: 50%;
                     left: 50%;
                     transform: translate(-50%, calc(-50% - 1.1em));
                 } 
+                &--green{
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, calc(-50% + 1.1em));
+                }
             }
         }
     }
@@ -51,13 +64,17 @@
         font-weight: 400;
         font-size: 32px;
         line-height: 35.22px;
-        &.title--be-always-first{
+        &--be-always-first{
             margin: .6em;
             margin-top: 5.6em;
         }
-        &.title--your-shop{
+        &--your-shop{
             margin: .6em;
             margin-top: 5.6em;
+        }
+        &--increase{
+            margin: .6em;
+            margin-top: 1em;
         }
     }
     &__subtitle{
@@ -65,15 +82,20 @@
         font-weight: 400;
         font-size: 14px;
         line-height: 21px;
-        &.subtitle--be-always-first{
+        &--be-always-first{
             margin: 1.6em;
             margin-top: 3em;
             padding-bottom: .6em;
         }
-        &.subtitle--your-shop{
+        &--your-shop{
             margin: 1.6em;
             margin-top: .7em;
             padding-bottom: .5em;
+        }
+        &--increase{
+            margin: .7em 1.2em;
+            font-size: 16px;
+            line-height: 21.79px;
         }
     }
 }
