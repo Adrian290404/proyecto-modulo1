@@ -443,9 +443,8 @@ html, body {
 }
 .contact__terms-conditions__button {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(calc(-50% + 3.5em), calc(-50% + 16em));
+  bottom: -18em;
+  left: 9em;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 13px;
@@ -457,4 +456,39 @@ html, body {
   border-radius: 35px;
   background-color: #08A6E4;
   box-shadow: rgba(7, 172, 230, 0.2901960784) 5px 10px 14px 0px;
+}
+
+.footer {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px -5px 40px 0px;
+  background-color: #F7F7F7;
+  position: relative;
+  padding-left: 1em;
+}
+.footer__title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 30px;
+  word-spacing: 2px;
+  color: #08A6E4;
+  padding-top: 1em;
+}
+.footer__subtitle {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 14.98px;
+  word-spacing: 2px;
+  color: #A5A5A5;
+  padding-bottom: 1.8em;
+}
+.footer__twitter {
+  position: absolute;
+  top: 2.1em;
+  right: 5em;
+}
+.footer__facebook {
+  position: absolute;
+  top: 2.1em;
+  right: 2em;
 }/*# sourceMappingURL=styles.css.map */
