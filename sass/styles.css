@@ -18,11 +18,11 @@ html, body {
 .header {
   margin: 0 auto;
 }
-.header__up {
+.header__nav {
   box-shadow: rgba(0, 0, 0, 0.2901960784) 0px 3px 6px 0px;
   position: relative;
 }
-.header__up__title {
+.header__nav__title {
   font-family: "Raleway", sans-serif;
   font-weight: 300;
   font-size: 32px;
@@ -30,13 +30,13 @@ html, body {
   color: #08A6E4;
   padding: 0.5em 0.8em;
 }
-.header__up__dropdown {
+.header__nav__dropdown {
   position: absolute;
   top: 1.7em;
   right: 1.8em;
   color: #08A6E4;
 }
-.header__up__nav {
+.header__nav__list {
   display: none;
 }
 .header__sell-more {
@@ -75,11 +75,67 @@ html, body {
   position: relative;
   padding-top: 23em;
 }
-.header__image-container__labtop-image {
+.header__image-container__laptop-image {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.header__image-container__laptop-image--dekstop {
+  display: none;
+}
+@media only screen and (min-width: 1000px) {
+  .header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header__nav__title {
+    display: inline-flex;
+  }
+  .header__nav__dropdown {
+    display: none;
+  }
+  .header__nav__list {
+    list-style: none;
+    margin-right: 5em;
+    display: flex;
+    gap: 6em;
+  }
+  .header__nav__list__item {
+    padding: 2.3em 0.5em;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 3.28px;
+    color: #A5A5A5;
+  }
+  .header__nav__list__item--selected {
+    color: #000000;
+    border-bottom: 4px solid #08A6E4;
+  }
+  .header__sell-more__title {
+    font-size: 49px;
+    line-height: 57px;
+  }
+  .header__sell-more__description {
+    line-height: 22px;
+    margin: 1.5em;
+  }
+  .header__sell-more__button {
+    padding: 1.3em 10em;
+    margin-bottom: 5.5em;
+  }
+  .header__image-container {
+    margin-bottom: 9em;
+  }
+  .header__image-container__laptop-image--mobile {
+    display: none;
+  }
+  .header__image-container__laptop-image--dekstop {
+    display: block;
+  }
 }
 
 .why-us {

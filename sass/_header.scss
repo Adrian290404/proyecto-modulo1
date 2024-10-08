@@ -1,6 +1,6 @@
 .header{
     margin: 0 auto;
-    &__up{
+    &__nav{
         box-shadow: #0000004A 0px 3px 6px 0px ;
         position: relative;
         &__title{
@@ -17,7 +17,7 @@
             right: 1.8em;
             color: #08A6E4;
         }
-        &__nav{
+        &__list{
             display: none;
         }  
     }
@@ -56,11 +56,72 @@
     &__image-container{
         position: relative;
         padding-top: 23em;
-        &__labtop-image{
+        &__laptop-image{
             position: absolute;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
+            &--dekstop{
+                display: none;
+            }
+        }
+    }
+    @media only screen and (min-width: 1000px) {
+        &__nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            &__title{
+                display: inline-flex;
+            }
+            &__dropdown{
+                display: none;
+            }
+            &__list{
+                list-style: none;
+                margin-right: 5em;
+                display: flex;
+                gap: 6em; 
+                &__item{
+                    padding: 2.3em .5em;             
+                    font-family: "Open Sans", sans-serif;
+                    font-weight: 700;
+                    font-size: 11px;
+                    line-height: 15px;
+                    letter-spacing: 3.28px;
+                    color: #A5A5A5;
+                    &--selected{
+                        color: #000000;
+                        border-bottom: 4px solid #08A6E4;
+                    }
+                }
+                
+            }
+        }
+        &__sell-more{
+            &__title{
+                font-size: 49px;
+                line-height: 57px;
+            }
+            &__description{
+                line-height: 22px;
+                margin: 1.5em;
+            }
+            &__button{
+                padding: 1.3em 10em;
+                margin-bottom: 5.5em;
+            }
+        }
+        &__image-container{
+            margin-bottom: 9em;
+            &__laptop-image{
+                &--mobile{
+                    display: none;
+                }
+                &--dekstop{
+                    display: block;
+                }
+            }
         }
     }
 }
