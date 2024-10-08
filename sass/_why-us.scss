@@ -1,6 +1,6 @@
 .why-us{
     background-color: white;
-    &__information{
+    &__title{
         font-family: "Raleway", sans-serif;
         font-weight: 300;
         font-size: 30px;
@@ -10,7 +10,7 @@
         margin: 0 1.2em;
         margin-top: -1.5em;
     }
-    &__circle-icon{
+    &__information{
         margin: 0 5em;
         text-align: center;
         &__image-container{
@@ -71,6 +71,23 @@
             line-height: 20px;
             color: #A5A5A5;
             margin: 1em 3em 3.5em 3em;
+        }
+    }
+    @media only screen and (min-width: 1000px) {
+        &__title{
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 42px;
+            margin: 0;
+        }
+        &--information-container{
+            display: flex;
+            justify-content: center; 
+            margin: 0;
+        }
+        &__information{
+            margin: 8em 4em 4em 4em;
+            max-width: 14em;
         }
     }
 }

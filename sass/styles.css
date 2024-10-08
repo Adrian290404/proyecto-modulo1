@@ -141,7 +141,7 @@ html, body {
 .why-us {
   background-color: white;
 }
-.why-us__information {
+.why-us__title {
   font-family: "Raleway", sans-serif;
   font-weight: 300;
   font-size: 30px;
@@ -151,52 +151,52 @@ html, body {
   margin: 0 1.2em;
   margin-top: -1.5em;
 }
-.why-us__circle-icon {
+.why-us__information {
   margin: 0 5em;
   text-align: center;
 }
-.why-us__circle-icon__image-container {
+.why-us__information__image-container {
   position: relative;
 }
-.why-us__circle-icon__image-container__circle {
+.why-us__information__image-container__circle {
   display: inline-block;
   position: absolute;
 }
-.why-us__circle-icon__image-container__circle--red {
+.why-us__information__image-container__circle--red {
   top: 50%;
   left: calc(50% - 40px);
   transform: translateY(-50%);
 }
-.why-us__circle-icon__image-container__circle--blue {
+.why-us__information__image-container__circle--blue {
   top: 50%;
   left: calc(50% - 32px);
   transform: translateY(-50%);
 }
-.why-us__circle-icon__image-container__circle--green {
+.why-us__information__image-container__circle--green {
   top: 50%;
   left: calc(50% - 32px);
   transform: translateY(-50%);
 }
-.why-us__circle-icon__image-container__icon {
+.why-us__information__image-container__icon {
   display: inline-block;
   position: absolute;
 }
-.why-us__circle-icon__image-container__icon--person {
+.why-us__information__image-container__icon--person {
   top: 50%;
   left: calc(50% - 8px);
   transform: translateY(-50%);
 }
-.why-us__circle-icon__image-container__icon--eye {
+.why-us__information__image-container__icon--eye {
   top: 50%;
   left: calc(50% - 13px);
   transform: translateY(-50%);
 }
-.why-us__circle-icon__image-container__icon--posts {
+.why-us__information__image-container__icon--posts {
   top: 50%;
   left: calc(50% - 2px);
   transform: translateY(-50%);
 }
-.why-us__circle-icon__number {
+.why-us__information__number {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 20px;
@@ -206,13 +206,30 @@ html, body {
   padding-top: 2.3em;
   margin-top: 3em;
 }
-.why-us__circle-icon__principal-text {
+.why-us__information__principal-text {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 17px;
   line-height: 20px;
   color: #A5A5A5;
   margin: 1em 3em 3.5em 3em;
+}
+@media only screen and (min-width: 1000px) {
+  .why-us__title {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    margin: 0;
+  }
+  .why-us--information-container {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+  .why-us__information {
+    margin: 8em 4em 4em 4em;
+    max-width: 14em;
+  }
 }
 
 .benefits {
