@@ -85,6 +85,7 @@
         }
     }
     @media only screen and (min-width: 1000px) {
+        padding-bottom: .8em;
         &__box{
             max-width: none;
             height: 21.5em;
@@ -207,6 +208,7 @@
                     }
                     &--increase{
                         padding-top: 1em;
+                        width: 100%;
                     }
                 }
             }

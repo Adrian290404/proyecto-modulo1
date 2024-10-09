@@ -310,6 +310,9 @@ html, body {
   display: none;
 }
 @media only screen and (min-width: 1000px) {
+  .benefits {
+    padding-bottom: 0.8em;
+  }
   .benefits__box {
     max-width: none;
     height: 21.5em;
@@ -433,6 +436,7 @@ html, body {
   }
   .benefits__box__text-container__line--increase {
     padding-top: 1em;
+    width: 100%;
   }
 }
 
@@ -505,16 +509,18 @@ html, body {
   left: 50%;
   transform: translate(calc(-50% + 4.3em), calc(-50% - 1.6em));
 }
-.pricing__offer__right__line {
-  margin-top: 1.3em;
-}
-.pricing__offer__right__line__checkbox-cross {
-  display: inline;
-}
-.pricing__offer__right__line__text {
-  display: inline;
+.pricing__offer__right__container {
   word-spacing: 2px;
-  margin-left: 0.3em;
+  margin-left: 1.5em;
+  margin-top: 1.7em;
+}
+.pricing__offer__right__container__check {
+  margin-top: 1.2em;
+  list-style-image: url("../img/Checkbox.png");
+}
+.pricing__offer__right__container__cross {
+  margin-top: 1.2em;
+  list-style-image: url("../img/Cross.png");
 }
 .pricing__offer__button {
   font-family: "Open Sans", sans-serif;
