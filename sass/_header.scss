@@ -61,7 +61,7 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            &--dekstop{
+            &--desktop{
                 display: none;
             }
         }
@@ -118,7 +118,7 @@
                 &--mobile{
                     display: none;
                 }
-                &--dekstop{
+                &--desktop{
                     display: block;
                 }
             }
