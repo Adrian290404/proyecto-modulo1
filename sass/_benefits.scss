@@ -4,8 +4,8 @@
     padding-bottom: 7.3em;
     &__box{
         background-color: #FFFFFF;
-        border: 1px solid #E8E9ED;
-        border-radius: 5px;
+        border: 0.0625rem solid #E8E9ED;
+        border-radius: 0.3125rem;
         max-width: 19.6em;
         margin: 0 auto;
         margin-bottom: 3.1em;
@@ -15,43 +15,31 @@
             &__image{
                 display: inline-block;
                 z-index: 10;
-                &--labtop{
-                    position: absolute;
-                    top: 50%;
-                    left: 50%;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                &--laptop{
                     transform: translate(calc(-50% - .5em), -50%);
                 }
                 &--phone{
-                    position: absolute;
-                    top: 50%;
-                    left: 50%;
                     transform: translate(calc(-50% + 1.6em), calc(-50% - .6em));
                 }
                 &--trumpet{
-                    position: absolute;
-                    top: 50%;
-                    left: 50%;
                     transform: translate(calc(-50% - 1.2em), calc(-50% + 3.3em));
                 }
             }
             &__bg{
                 display: inline-block;
+                position: absolute;
+                top: 50%;
+                left: 50%;
                 &--red{
-                    position: absolute;
-                    top: 50%;
-                    left: 50%;
                     transform: translate(calc(-50% + 3em), calc(-50% - 1.8em));
                 } 
                 &--blue{
-                    position: absolute;
-                    top: 50%;
-                    left: 50%;
                     transform: translate(-50%, calc(-50% - 1.1em));
                 } 
                 &--green{
-                    position: absolute;
-                    top: 50%;
-                    left: 50%;
                     transform: translate(-50%, calc(-50% + 1.1em));
                 }
             }
@@ -60,40 +48,32 @@
     &__title{
         font-family: "Raleway", sans-serif;
         font-weight: 400;
-        font-size: 32px;
-        line-height: 35.22px;
-        &--be-always-first{
-            margin: .6em;
-            margin-top: 5.6em;
-        }
-        &--your-shop{
-            margin: .6em;
-            margin-top: 5.6em;
-        }
+        font-size: 2rem;
+        line-height: 2.1875rem;
+        margin: .6em;
+        margin-top: 5.6em;
         &--increase{
-            margin: .6em;
             margin-top: 1em;
         }
     }
     &__subtitle{
         font-family: "Open Sans", sans-serif;
         font-weight: 400;
-        font-size: 14px;
-        line-height: 21px;
+        font-size: 0.875rem;
+        line-height: 1.3125rem;
+        margin: 1.6em;
         &--be-always-first{
-            margin: 1.6em;
             margin-top: 3em;
             padding-bottom: .6em;
         }
         &--your-shop{
-            margin: 1.6em;
             margin-top: .7em;
             padding-bottom: .5em;
         }
         &--increase{
             margin: .7em 1.2em;
-            font-size: 16px;
-            line-height: 21.79px;
+            font-size: 1rem;
+            line-height: 1.3125rem;
         }
     }
 }

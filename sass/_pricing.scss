@@ -4,15 +4,15 @@
     &__title{
         font-family: "Raleway", sans-serif;
         font-weight: 400;
-        font-size: 36px;
-        line-height: 42.26px;
+        font-size: 2.25rem;
+        line-height: 2.625rem;
         text-align: center;
     }
     &__offer{
         max-width: 18.3em;
         height: 16em;
-        border: 1px solid #000000;
-        border-radius: 18px;
+        border: 0.0625rem solid #000000;
+        border-radius: 1.125rem;
         margin: 1em auto;
         position: relative;
         margin-bottom: 4em;
@@ -34,14 +34,14 @@
             &__title{
                 font-family: "Raleway", sans-serif;
                 font-weight: 700;
-                font-size: 20px;
-                line-height: 24px;
+                font-size: 1.25rem;
+                line-height: 1.5rem;
             }
             &__price{
                 font-family: "Open Sans", sans-serif;
                 font-weight: 300;
-                font-size: 46px;
-                line-height: 64px;
+                font-size: 2.875rem;
+                line-height: 4rem;
                 &--basic{
                     color: #FB3B64;
                 }
@@ -55,8 +55,8 @@
             &__subtitle{
                 font-family: "Raleway", sans-serif;
                 font-weight: 700;
-                font-size: 12px;
-                line-height: 14.09px;
+                font-size: 0.75rem;
+                line-height: 0.875rem;
             }
         }
         &__right{
@@ -79,11 +79,11 @@
         &__button{
             font-family: "Open Sans", sans-serif;
             font-weight: 700;
-            font-size: 13px;
-            line-height: 17.7px;
-            word-spacing: 2px;
+            font-size: 0.8125rem;
+            line-height: 1.0625rem;
+            word-spacing: 0.125rem;
             border: none;
-            border-radius: 23px;
+            border-radius: 1.4375rem;
             color: #FFFFFF;
             padding: 1.2em 4em;
             position: absolute;
