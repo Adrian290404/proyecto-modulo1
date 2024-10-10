@@ -558,6 +558,18 @@ html, body {
     justify-content: center;
     gap: 3em;
   }
+  .pricing__offers-container__offer--basic:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 10px 27px 0px rgba(235, 71, 110, 0.2901960784);
+  }
+  .pricing__offers-container__offer--professional:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 10px 27px 0px rgba(7, 172, 230, 0.2901960784);
+  }
+  .pricing__offers-container__offer--premium:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 10px 27px 0px rgba(85, 223, 180, 0.2901960784);
+  }
   .pricing__offers-container__offer {
     flex: 1;
     margin: 1em 0;
@@ -585,15 +597,6 @@ html, body {
   .pricing__offers-container__offer__button {
     transform: translate(-50%, calc(-50% + 16.8em));
   }
-  .pricing__offers-container__offer__button--basic {
-    background-color: #EB476E;
-  }
-  .pricing__offers-container__offer__button--professional {
-    background-color: #07ACE6;
-  }
-  .pricing__offers-container__offer__button--premium {
-    background-color: #55DFB4;
-  }
 }
 
 .contact {
@@ -601,25 +604,25 @@ html, body {
   margin-left: 2em;
   font-weight: 400;
 }
-.contact__title {
+.contact__left__title {
   font-family: "Raleway", sans-serif;
   font-size: 2.5rem;
   line-height: 2.875rem;
 }
-.contact__subtitle {
+.contact__left__subtitle {
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
   line-height: 1.375rem;
   margin-top: 0.3em;
   margin-bottom: 2em;
 }
-.contact__info {
+.contact__left__info {
   position: relative;
 }
-.contact__info__image {
+.contact__left__info__image {
   display: inline;
 }
-.contact__info__text {
+.contact__left__info__text {
   display: inline;
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
@@ -630,10 +633,10 @@ html, body {
   top: 0.1em;
   left: 2.2em;
 }
-.contact__details {
+.contact__right__details {
   margin-top: 2.8em;
 }
-.contact__details__label {
+.contact__right__details__label {
   display: block;
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
@@ -643,21 +646,21 @@ html, body {
   letter-spacing: 0.1875rem;
   margin-bottom: 2em;
 }
-.contact__details__input {
+.contact__right__details__input {
   display: block;
   width: 23em;
   border: none;
   border-bottom: 0.0625rem solid #95989A;
   margin-bottom: 3.5em;
 }
-.contact__details__input:focus {
+.contact__right__details__input:focus {
   outline: none;
 }
-.contact__terms-conditions {
+.contact__right__terms-conditions {
   position: relative;
   margin-bottom: 20.5em;
 }
-.contact__terms-conditions__checkbox {
+.contact__right__terms-conditions__checkbox {
   position: absolute;
   width: 2em;
   height: 2em;
@@ -665,7 +668,7 @@ html, body {
   border-radius: 0.25rem;
   accent-color: #FFFFFF;
 }
-.contact__terms-conditions__text {
+.contact__right__terms-conditions__text {
   position: absolute;
   left: 3em;
   max-width: 23em;
@@ -675,7 +678,7 @@ html, body {
   line-height: 1rem;
   color: #707070;
 }
-.contact__terms-conditions__button {
+.contact__right__terms-conditions__button {
   position: absolute;
   bottom: -18em;
   left: 9em;

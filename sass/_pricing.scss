@@ -115,7 +115,19 @@
         &__offers-container{
             display: flex;
             justify-content: center;    
-            gap: 3em;        
+            gap: 3em;
+            &__offer--basic:hover{
+                transform: scale(1.1);
+                box-shadow: 5px 10px 27px 0px #EB476E4A;
+            }
+            &__offer--professional:hover{
+                transform: scale(1.1);
+                box-shadow: 5px 10px 27px 0px #07ACE64A;
+            }
+            &__offer--premium:hover{
+                transform: scale(1.1);
+                box-shadow: 5px 10px 27px 0px #55DFB44A;
+            }        
             &__offer{
                 flex: 1; 
                 margin: 1em 0;
@@ -141,15 +153,6 @@
                 }
                 &__button{
                     transform: translate(-50%, calc(-50% + 16.8em));
-                    &--basic{
-                        background-color: #EB476E;
-                    }
-                    &--professional{
-                        background-color: #07ACE6;
-                    }
-                    &--premium{
-                        background-color: #55DFB4;
-                    }
                 }
             }
         }

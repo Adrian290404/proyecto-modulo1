@@ -2,95 +2,99 @@
     margin-top: 5.5em;
     margin-left: 2em;
     font-weight: 400;
-    &__title{
-        font-family: "Raleway", sans-serif;
-        font-size: 2.5rem;
-        line-height: 2.875rem;
-    }
-    &__subtitle{
-        font-family: "Open Sans", sans-serif;
-        font-size: 1rem;
-        line-height: 1.375rem;
-        margin-top: .3em;
-        margin-bottom: 2em;
-    }
-    &__info{
-        position: relative;
-        &__image{
-            display: inline;
+    &__left{
+        &__title{
+            font-family: "Raleway", sans-serif;
+            font-size: 2.5rem;
+            line-height: 2.875rem;
         }
-        &__text{
-            display: inline;
+        &__subtitle{
             font-family: "Open Sans", sans-serif;
-            font-weight: 600;
             font-size: 1rem;
             line-height: 1.375rem;
-            color: #A5A5A5;
-            position: absolute;
-            top: .1em;
-            left: 2.2em;
-        }
-    }
-    &__details{
-        margin-top: 2.8em;
-        &__label{
-            display: block;
-            font-family: "Open Sans", sans-serif;
-            font-weight: 600;
-            font-size: 0.6875rem;
-            line-height: 0.875rem;
-            color: #08A6E4;
-            letter-spacing: 0.1875rem;
+            margin-top: .3em;
             margin-bottom: 2em;
         }
-        &__input{
-            display: block;
-            width: 23em;
-            border: none;
-            border-bottom: 0.0625rem solid #95989A;
-            margin-bottom: 3.5em;
-
-        }
-        &__input:focus {
-            outline: none;
+        &__info{
+            position: relative;
+            &__image{
+                display: inline;
+            }
+            &__text{
+                display: inline;
+                font-family: "Open Sans", sans-serif;
+                font-weight: 600;
+                font-size: 1rem;
+                line-height: 1.375rem;
+                color: #A5A5A5;
+                position: absolute;
+                top: .1em;
+                left: 2.2em;
+            }
         }
     }
-    &__terms-conditions{
-        position: relative;
-        margin-bottom: 20.5em;
-        &__checkbox{
-            position: absolute;
-            width: 2em;
-            height: 2em;
-            border: 0.0625rem #95989A  solid;
-            border-radius: 0.25rem;
-            accent-color: #FFFFFF;
+    &__right{
+        &__details{
+            margin-top: 2.8em;
+            &__label{
+                display: block;
+                font-family: "Open Sans", sans-serif;
+                font-weight: 600;
+                font-size: 0.6875rem;
+                line-height: 0.875rem;
+                color: #08A6E4;
+                letter-spacing: 0.1875rem;
+                margin-bottom: 2em;
+            }
+            &__input{
+                display: block;
+                width: 23em;
+                border: none;
+                border-bottom: 0.0625rem solid #95989A;
+                margin-bottom: 3.5em;
+    
+            }
+            &__input:focus {
+                outline: none;
+            }
         }
-        &__text{
-            position: absolute;
-            left: 3em;
-            max-width: 23em;
-            font-family: "Open Sans", sans-serif;
-            font-weight: 400;
-            font-size: 0.75rem;
-            line-height: 1rem;
-            color: #707070;
-        }
-        &__button{
-            position: absolute;
-            bottom: -18em;
-            left: 9em;
-            font-family: "Open Sans", sans-serif;
-            font-weight: 700;
-            font-size: 0.8125rem;
-            line-height: 1.0625rem;
-            letter-spacing: 0.125rem;
-            color: #FFFFFF;
-            padding: 1.2em 6em;
-            border: none;
-            border-radius: 2.1875rem;
-            background-color: #08A6E4;
-            box-shadow: #07ACE64A 5px 10px 14px 0px ;
+        &__terms-conditions{
+            position: relative;
+            margin-bottom: 20.5em;
+            &__checkbox{
+                position: absolute;
+                width: 2em;
+                height: 2em;
+                border: 0.0625rem #95989A  solid;
+                border-radius: 0.25rem;
+                accent-color: #FFFFFF;
+            }
+            &__text{
+                position: absolute;
+                left: 3em;
+                max-width: 23em;
+                font-family: "Open Sans", sans-serif;
+                font-weight: 400;
+                font-size: 0.75rem;
+                line-height: 1rem;
+                color: #707070;
+            }
+            &__button{
+                position: absolute;
+                bottom: -18em;
+                left: 9em;
+                font-family: "Open Sans", sans-serif;
+                font-weight: 700;
+                font-size: 0.8125rem;
+                line-height: 1.0625rem;
+                letter-spacing: 0.125rem;
+                color: #FFFFFF;
+                padding: 1.2em 6em;
+                border: none;
+                border-radius: 2.1875rem;
+                background-color: #08A6E4;
+                box-shadow: #07ACE64A 5px 10px 14px 0px ;
+            }
         }
     }
 }
