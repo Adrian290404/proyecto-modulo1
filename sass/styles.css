@@ -451,7 +451,10 @@ html, body {
   line-height: 2.625rem;
   text-align: center;
 }
-.pricing__offer {
+.pricing__offers-container__offer {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
   max-width: 18.3em;
   height: 16em;
   border: 0.0625rem solid #000000;
@@ -460,69 +463,69 @@ html, body {
   position: relative;
   margin-bottom: 4em;
 }
-.pricing__offer--basic {
+.pricing__offers-container__offer--basic {
   border-color: #FB3B64;
 }
-.pricing__offer--professional {
+.pricing__offers-container__offer--professional {
   border-color: #07ACE6;
 }
-.pricing__offer--premium {
+.pricing__offers-container__offer--premium {
   border-color: #55DFB4;
 }
-.pricing__offer__left {
+.pricing__offers-container__offer__left {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(calc(-50% - 4.6em), -50%);
   text-align: center;
 }
-.pricing__offer__left__title {
+.pricing__offers-container__offer__left__title {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 1.25rem;
   line-height: 1.5rem;
 }
-.pricing__offer__left__price {
+.pricing__offers-container__offer__left__price {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
   font-size: 2.875rem;
   line-height: 4rem;
 }
-.pricing__offer__left__price--basic {
+.pricing__offers-container__offer__left__price--basic {
   color: #FB3B64;
 }
-.pricing__offer__left__price--professional {
+.pricing__offers-container__offer__left__price--professional {
   color: #07ACE6;
 }
-.pricing__offer__left__price--premium {
+.pricing__offers-container__offer__left__price--premium {
   color: #55DFB4;
 }
-.pricing__offer__left__subtitle {
+.pricing__offers-container__offer__left__subtitle {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 0.75rem;
   line-height: 0.875rem;
 }
-.pricing__offer__right {
+.pricing__offers-container__offer__right {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(calc(-50% + 4.3em), calc(-50% - 1.6em));
 }
-.pricing__offer__right__container {
+.pricing__offers-container__offer__right__container {
   word-spacing: 2px;
   margin-left: 1.5em;
   margin-top: 1.7em;
 }
-.pricing__offer__right__container__check {
+.pricing__offers-container__offer__right__container__check {
   margin-top: 1.2em;
   list-style-image: url("../img/Checkbox.png");
 }
-.pricing__offer__right__container__cross {
+.pricing__offers-container__offer__right__container__cross {
   margin-top: 1.2em;
   list-style-image: url("../img/Cross.png");
 }
-.pricing__offer__button {
+.pricing__offers-container__offer__button {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 0.8125rem;
@@ -537,14 +540,60 @@ html, body {
   left: 50%;
   transform: translate(-50%, calc(-50% + 9.8em));
 }
-.pricing__offer__button--basic {
+.pricing__offers-container__offer__button--basic {
   background-color: #EB476E;
 }
-.pricing__offer__button--professional {
+.pricing__offers-container__offer__button--professional {
   background-color: #07ACE6;
 }
-.pricing__offer__button--premium {
+.pricing__offers-container__offer__button--premium {
   background-color: #55DFB4;
+}
+@media only screen and (min-width: 1000px) {
+  .pricing__title {
+    padding-bottom: 0.6em;
+  }
+  .pricing__offers-container {
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+  }
+  .pricing__offers-container__offer {
+    flex: 1;
+    margin: 1em 0;
+    padding-bottom: 26em;
+  }
+  .pricing__offers-container__offer__left {
+    transform: translate(-50%, calc(-50% - 8.5em));
+  }
+  .pricing__offers-container__offer__right {
+    transform: translate(-50%, calc(-50% + 2.5em));
+  }
+  .pricing__offers-container__offer__right__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .pricing__offers-container__offer__right__container__check {
+    list-style-image: url("../img/Checkbox.png");
+    margin: 0.8em auto;
+  }
+  .pricing__offers-container__offer__right__container__cross {
+    list-style-image: url("../img/Cross.png");
+    margin: 0.8em auto;
+  }
+  .pricing__offers-container__offer__button {
+    transform: translate(-50%, calc(-50% + 16.8em));
+  }
+  .pricing__offers-container__offer__button--basic {
+    background-color: #EB476E;
+  }
+  .pricing__offers-container__offer__button--professional {
+    background-color: #07ACE6;
+  }
+  .pricing__offers-container__offer__button--premium {
+    background-color: #55DFB4;
+  }
 }
 
 .contact {
