@@ -791,13 +791,22 @@ html, body {
   color: #A5A5A5;
   padding-bottom: 1.8em;
 }
-.footer__twitter {
+.footer__icons {
   position: absolute;
   top: 2.1em;
-  right: 5em;
+  right: 0;
 }
-.footer__facebook {
-  position: absolute;
-  top: 2.1em;
-  right: 2em;
+.footer__icons__twitter {
+  margin-right: 1em;
+}
+.footer__icons__facebook {
+  margin-right: 1em;
+}
+@media only screen and (min-width: 1000px) {
+  .footer {
+    padding-left: 7%;
+  }
+  .footer__icons {
+    right: 7%;
+  }
 }/*# sourceMappingURL=styles.css.map */

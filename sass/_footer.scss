@@ -21,14 +21,21 @@
         color: #A5A5A5;
         padding-bottom: 1.8em;
     }
-    &__twitter{
+    &__icons{
         position: absolute;
         top: 2.1em;
-        right: 5em;
+        right: 0;
+            &__twitter{
+                margin-right: 1em;
+            }
+            &__facebook{
+                margin-right: 1em;
+            }
     }
-    &__facebook{
-        position: absolute;
-        top: 2.1em;
-        right: 2em;
+    @media only screen and (min-width: 1000px) {
+        padding-left: 7%; 
+        &__icons{
+            right: 7%;
+        }
     }
 }
