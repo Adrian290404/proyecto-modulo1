@@ -616,13 +616,13 @@ html, body {
   margin-top: 0.3em;
   margin-bottom: 2em;
 }
-.contact__left__info {
+.contact__left__container__info {
   position: relative;
 }
-.contact__left__info__image {
+.contact__left__container__info__image {
   display: inline;
 }
-.contact__left__info__text {
+.contact__left__container__info__text {
   display: inline;
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
@@ -693,6 +693,78 @@ html, body {
   border-radius: 2.1875rem;
   background-color: #08A6E4;
   box-shadow: rgba(7, 172, 230, 0.2901960784) 5px 10px 14px 0px;
+}
+@media only screen and (min-width: 1000px) {
+  .contact {
+    margin-top: 7.5em;
+    display: flex;
+    justify-content: center;
+    gap: 4em;
+  }
+  .contact__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .contact__left__title {
+    padding-bottom: 0.4em;
+  }
+  .contact__left__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 1em;
+  }
+  .contact__left__container__info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 1em;
+  }
+  .contact__left__container__info__image {
+    margin-right: 0.8em;
+  }
+  .contact__left__container__info__text {
+    position: static;
+    display: flex;
+    align-items: center;
+  }
+  .contact__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 27%;
+  }
+  .contact__right__details {
+    margin-top: 0;
+  }
+  .contact__right__details__input {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 2vw;
+  }
+  .contact__right__terms-conditions {
+    position: relative;
+    margin-bottom: 20.5em;
+    background-color: #08A6E4;
+  }
+  .contact__right__terms-conditions__checkbox {
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    border: 0.0625rem #95989A solid;
+    border-radius: 0.25rem;
+    accent-color: #FFFFFF;
+  }
+  .contact__right__terms-conditions__text {
+    max-width: 100%;
+  }
+  .contact__right__terms-conditions__button {
+    left: auto;
+    bottom: auto;
+    right: 1em;
+    top: 16em;
+  }
 }
 
 .footer {
