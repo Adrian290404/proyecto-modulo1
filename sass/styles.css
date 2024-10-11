@@ -660,7 +660,7 @@ html, body {
   position: relative;
   margin-bottom: 20.5em;
 }
-.contact__right__terms-conditions__checkbox {
+.contact__right__terms-conditions__label__checkbox {
   position: absolute;
   width: 2em;
   height: 2em;
@@ -730,6 +730,7 @@ html, body {
     align-items: center;
   }
   .contact__right {
+    position: static;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -744,26 +745,22 @@ html, body {
     margin-bottom: 2vw;
   }
   .contact__right__terms-conditions {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1em 1em 0;
+    margin-bottom: 9.5em;
     position: relative;
-    margin-bottom: 20.5em;
-    background-color: #08A6E4;
-  }
-  .contact__right__terms-conditions__checkbox {
-    position: absolute;
-    width: 2em;
-    height: 2em;
-    border: 0.0625rem #95989A solid;
-    border-radius: 0.25rem;
-    accent-color: #FFFFFF;
   }
   .contact__right__terms-conditions__text {
+    display: inline-block;
+    position: static;
     max-width: 100%;
+    margin-left: 3em;
   }
   .contact__right__terms-conditions__button {
     left: auto;
-    bottom: auto;
     right: 1em;
-    top: 16em;
+    bottom: -5em;
   }
 }
 

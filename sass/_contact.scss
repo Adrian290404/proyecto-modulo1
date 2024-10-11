@@ -63,13 +63,39 @@
         &__terms-conditions{
             position: relative;
             margin-bottom: 20.5em;
-            &__checkbox{
-                position: absolute;
-                width: 2em;
-                height: 2em;
-                border: 0.0625rem #95989A  solid;
-                border-radius: 0.25rem;
-                accent-color: #FFFFFF;
+            &__label{
+                // position: absolute;
+                // width: 2em;
+                // height: 2em;
+                // border: 0.0625rem #95989A  solid;
+                // border-radius: 0.25rem;
+                // accent-color: #FFFFFF;
+                &__checkbox{
+                    // display: none;
+                    position: absolute;
+                    width: 2em;
+                    height: 2em;
+                    border: 0.0625rem #95989A  solid;
+                    border-radius: 0.25rem;
+                    accent-color: #FFFFFF;
+                }
+                // &__span{
+                //     display: inline-block;
+                //     position: absolute;
+                //     top: 0;
+                //     left: 0;
+                //     width: 24px;
+                //     height: 24px;
+                //     border: 0.0625rem #95989A  solid;
+                //     border-radius: 0.25rem;
+                // }
+                // &__checkbox:checked + &__span::before{
+                //     content: url('../img/Checkmark.png');
+                //     display: inline-block;
+                //     width: 100%;
+                //     text-align: ;
+                //     color: #08A6E4;
+                // }
             }
             &__text{
                 position: absolute;
@@ -133,10 +159,11 @@
             }
         }
         &__right{
+            position: static;
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
-            width: 27%; 
+            width: 27%;
             &__details{
                 margin-top: 0;
                 &__input{
@@ -146,42 +173,21 @@
                 }
             }
             &__terms-conditions{
+                display: flex;
+                flex-direction: column;
+                padding: 0 1em 1em 0;
+                margin-bottom: 9.5em;
                 position: relative;
-                margin-bottom: 20.5em;
-                background-color: #08A6E4;
-                &__checkbox{
-                    position: absolute;
-                    width: 2em;
-                    height: 2em;
-                    border: 0.0625rem #95989A  solid;
-                    border-radius: 0.25rem;
-                    accent-color: #FFFFFF;
-                }
                 &__text{
-                    // position: absolute;
-                    // left: 3em;
-                    // font-family: "Open Sans", sans-serif;
-                    // font-weight: 400;
-                    // font-size: 0.75rem;
-                    // line-height: 1rem;
+                    display: inline-block;
+                    position: static;
                     max-width: 100%;
+                    margin-left: 3em;
                 }
                 &__button{
                     left: auto;
-                    bottom: auto;
                     right: 1em;
-                    top: 16em;
-                    // font-family: "Open Sans", sans-serif;
-                    // font-weight: 700;
-                    // font-size: 0.8125rem;
-                    // line-height: 1.0625rem;
-                    // letter-spacing: 0.125rem;
-                    // color: #FFFFFF;
-                    // padding: 1.2em 6em;
-                    // border: none;
-                    // border-radius: 2.1875rem;
-                    // background-color: #08A6E4;
-                    // box-shadow: #07ACE64A 5px 10px 14px 0px ;
+                    bottom: -5em;
                 }
             }
         }
