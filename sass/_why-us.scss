@@ -1,49 +1,37 @@
 .why-us{
     background-color: white;
+    text-align: center;
+    padding-bottom: 1.5em;
     &__title{
         font-family: "Raleway", sans-serif;
         font-weight: 300;
         font-size: 1.875rem;
         line-height: 2.1875rem;
         color: #000000;
-        text-align: center;
-        margin: 0 1.2em;
-        margin-top: -1.5em;
+        padding: 0 1.2em;
     }
     &__information{
-        margin: 0 auto 0 auto;
-        max-width: 14em;
-        text-align: center;
         &__image-container{
             position: relative;
+            width: 6em;
+            height: 6em;
+            margin: 0 auto;
             &__circle{
-                display: inline-block;
-                position: absolute;
-                top: 50%;   
-                transform: translateY(-50%);
-                &--red{                 
-                    left: calc(50% - 2.5em);                   
-                }
-                &--blue{                 
-                    left: calc(50% - 2em);                   
-                }
-                &--green{                  
-                    left: calc(50% - 2em);                   
-                }
+                padding-top: 2em;
             }
             &__icon{
-                display: inline-block;
                 position: absolute;
-                top: 50%;   
-                transform: translateY(-50%);
-                &--person{                
-                    left: calc(50% - .5em);            
+                &--person{
+                    top: 2em;               
+                    left: 48%;
                 }
                 &--eye{               
-                    left: calc(50% - .8em);            
+                    top: 2.8em;
+                    left: 40%;           
                 }
-                &--posts{           
-                    left: calc(50% - .1em);            
+                &--posts{               
+                    top: 2.3em;
+                    left: 50%;           
                 }
             }
         }
@@ -54,8 +42,7 @@
             line-height: 1.5rem;
             letter-spacing: 0.3125rem;
             color: #000000;
-            padding-top: 2.3em;
-            margin-top: 3em;
+            margin-top: .8em;
         }
         &__principal-text{
             font-family: "Raleway", sans-serif;
@@ -63,7 +50,8 @@
             font-size: 1.0625rem;
             line-height: 1.25rem;
             color: #A5A5A5;
-            margin: 1em 3em 3.5em 3em;
+            padding: 1em 3em 0 3em;
+            margin: 0 auto;
         }
     }
     @media only screen and (min-width: 1000px) {
@@ -79,7 +67,7 @@
             margin: 0;
         }
         &__information{
-            margin: 8em 4em 4em 4em;
+            padding: 4em;
         }
     }
 }

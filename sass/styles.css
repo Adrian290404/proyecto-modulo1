@@ -131,6 +131,8 @@ html, body {
 
 .why-us {
   background-color: white;
+  text-align: center;
+  padding-bottom: 1.5em;
 }
 .why-us__title {
   font-family: "Raleway", sans-serif;
@@ -138,47 +140,31 @@ html, body {
   font-size: 1.875rem;
   line-height: 2.1875rem;
   color: #000000;
-  text-align: center;
-  margin: 0 1.2em;
-  margin-top: -1.5em;
-}
-.why-us__information {
-  margin: 0 auto 0 auto;
-  max-width: 14em;
-  text-align: center;
+  padding: 0 1.2em;
 }
 .why-us__information__image-container {
   position: relative;
+  width: 6em;
+  height: 6em;
+  margin: 0 auto;
 }
 .why-us__information__image-container__circle {
-  display: inline-block;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
-.why-us__information__image-container__circle--red {
-  left: calc(50% - 2.5em);
-}
-.why-us__information__image-container__circle--blue {
-  left: calc(50% - 2em);
-}
-.why-us__information__image-container__circle--green {
-  left: calc(50% - 2em);
+  padding-top: 2em;
 }
 .why-us__information__image-container__icon {
-  display: inline-block;
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
 }
 .why-us__information__image-container__icon--person {
-  left: calc(50% - 0.5em);
+  top: 2em;
+  left: 48%;
 }
 .why-us__information__image-container__icon--eye {
-  left: calc(50% - 0.8em);
+  top: 2.8em;
+  left: 40%;
 }
 .why-us__information__image-container__icon--posts {
-  left: calc(50% - 0.1em);
+  top: 2.3em;
+  left: 50%;
 }
 .why-us__information__number {
   font-family: "Raleway", sans-serif;
@@ -187,8 +173,7 @@ html, body {
   line-height: 1.5rem;
   letter-spacing: 0.3125rem;
   color: #000000;
-  padding-top: 2.3em;
-  margin-top: 3em;
+  margin-top: 0.8em;
 }
 .why-us__information__principal-text {
   font-family: "Raleway", sans-serif;
@@ -196,7 +181,8 @@ html, body {
   font-size: 1.0625rem;
   line-height: 1.25rem;
   color: #A5A5A5;
-  margin: 1em 3em 3.5em 3em;
+  padding: 1em 3em 0 3em;
+  margin: 0 auto;
 }
 @media only screen and (min-width: 1000px) {
   .why-us__title {
@@ -211,7 +197,7 @@ html, body {
     margin: 0;
   }
   .why-us__information {
-    margin: 8em 4em 4em 4em;
+    padding: 4em;
   }
 }
 
