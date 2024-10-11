@@ -22,7 +22,7 @@
         }  
     }
     &__sell-more{
-        margin: 6.2em 1em 0 1em;
+        padding: 6.2em 1em 0 1em;
         text-align: center;
         position: relative;
         &__title{
@@ -37,7 +37,7 @@
             font-weight: 400;
             font-size: 1rem;
             line-height: 1.4rem;
-            margin: 1.5em;
+            padding: 1.5em 1.5em 2.5em 1.5em;
         }
         &__button{
             font-family: "Open Sans", sans-serif;
@@ -49,18 +49,15 @@
             border-radius: 2.8rem;
             border: none;
             color: white;
-            margin-top: 1em;
             padding: 1.3em 5.4em;
         }
     }
     &__image-container{
-        position: relative;
-        padding-top: 23em;
+        padding-top: 1em;
         &__laptop-image{
-            position: absolute;
-            top: 50%;
+            position: relative;
             left: 50%;
-            transform: translate(-50%, -50%);
+            transform: translateX(-50%);
             &--desktop{
                 display: none;
             }
@@ -79,9 +76,7 @@
             }
             &__list{
                 list-style: none;
-                margin-right: 5em;
                 display: flex;
-                gap: 6em; 
                 &__item{
                     padding: 2.3em .5em;             
                     font-family: "Open Sans", sans-serif;
@@ -90,6 +85,7 @@
                     line-height: 0.9rem;
                     letter-spacing: 0.2rem;
                     color: #A5A5A5;
+                    margin-right: 8em;
                     &--selected{
                         color: #000000;
                         border-bottom: 4px solid #08A6E4;
@@ -105,15 +101,12 @@
             }
             &__description{
                 line-height: 1.4rem;
-                margin: 1.5em;
             }
             &__button{
                 padding: 1.3em 10em;
-                margin-bottom: 5.5em;
             }
         }
         &__image-container{
-            margin-bottom: 9em;
             &__laptop-image{
                 &--mobile{
                     display: none;
