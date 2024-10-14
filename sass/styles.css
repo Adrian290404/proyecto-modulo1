@@ -15,9 +15,6 @@ html, body {
   overflow-x: hidden;
 }
 
-.header {
-  margin: 0 auto;
-}
 .header__nav {
   box-shadow: rgba(0, 0, 0, 0.2901960784) 0px 3px 6px 0px;
   position: relative;
