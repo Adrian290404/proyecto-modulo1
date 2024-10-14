@@ -138,7 +138,7 @@ html, body {
   font-size: 1.875rem;
   line-height: 2.1875rem;
   color: #000000;
-  padding: 0 1.2em;
+  margin: 0 1.2em;
 }
 .why-us__information__image-container {
   position: relative;
@@ -147,22 +147,22 @@ html, body {
   margin: 0 auto;
 }
 .why-us__information__image-container__circle {
-  padding-top: 2em;
+  margin-top: 2em;
 }
 .why-us__information__image-container__icon {
   position: absolute;
 }
 .why-us__information__image-container__icon--person {
   top: 2em;
-  left: 48%;
+  left: 2.9em;
 }
 .why-us__information__image-container__icon--eye {
   top: 2.8em;
-  left: 40%;
+  left: 2.3em;
 }
 .why-us__information__image-container__icon--posts {
   top: 2.3em;
-  left: 50%;
+  left: 3em;
 }
 .why-us__information__number {
   font-family: "Raleway", sans-serif;
@@ -179,8 +179,7 @@ html, body {
   font-size: 1.0625rem;
   line-height: 1.25rem;
   color: #A5A5A5;
-  padding: 1em 3em 0 3em;
-  margin: 0 auto;
+  margin: 1em auto 0 auto;
 }
 @media only screen and (min-width: 1000px) {
   .why-us__title {
@@ -195,7 +194,7 @@ html, body {
     margin: 0;
   }
   .why-us__information {
-    padding: 4em;
+    margin: 4em;
   }
 }
 

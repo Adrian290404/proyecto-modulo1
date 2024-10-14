@@ -8,7 +8,7 @@
         font-size: 1.875rem;
         line-height: 2.1875rem;
         color: #000000;
-        padding: 0 1.2em;
+        margin: 0 1.2em;
     }
     &__information{
         &__image-container{
@@ -17,21 +17,21 @@
             height: 6em;
             margin: 0 auto;
             &__circle{
-                padding-top: 2em;
+                margin-top: 2em;
             }
             &__icon{
                 position: absolute;
                 &--person{
                     top: 2em;               
-                    left: 48%;
+                    left: 2.9em;
                 }
                 &--eye{               
                     top: 2.8em;
-                    left: 40%;           
+                    left: 2.3em;           
                 }
                 &--posts{               
                     top: 2.3em;
-                    left: 50%;           
+                    left: 3em;           
                 }
             }
         }
@@ -50,8 +50,7 @@
             font-size: 1.0625rem;
             line-height: 1.25rem;
             color: #A5A5A5;
-            padding: 1em 3em 0 3em;
-            margin: 0 auto;
+            margin: 1em auto 0 auto;
         }
     }
     @media only screen and (min-width: 1000px) {
@@ -67,7 +66,7 @@
             margin: 0;
         }
         &__information{
-            padding: 4em;
+            margin: 4em;
         }
     }
 }
