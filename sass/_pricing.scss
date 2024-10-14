@@ -10,16 +10,12 @@
     }
     &__offers-container{
         &__offer{
-            flex: 1; 
-            padding: 20px; 
-            box-sizing: border-box;
-            max-width: 18.3em;
-            height: 16em;
+            position: relative;
+            width: 80%;
             border: 0.0625rem solid #000000;
             border-radius: 1.125rem;
-            margin: 1em auto;
-            position: relative;
-            margin-bottom: 4em;
+            margin: 1em auto 3.4em auto;
+            padding: 1.7em 0;
             &--basic{
                 border-color: #FB3B64;
             }
@@ -30,10 +26,7 @@
                 border-color: #55DFB4;
             }
             &__left{
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(calc(-50% - 4.6em), -50%);
+                padding: 3em 40% 3em 0;
                 text-align: center;
                 &__title{
                     font-family: "Raleway", sans-serif;
@@ -65,15 +58,13 @@
             }
             &__right{
                 position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(calc(-50% + 4.3em), calc(-50% - 1.6em));
+                left: 58%;
+                top: 2%;
                 &__container{
                     word-spacing: 2px;
-                    margin-left: 1.5em;
                     margin-top: 1.7em;
                     &__check{
-                        margin-top: 1.2em;
+                        margin-bottom: 1.2em;
                         list-style-image: url('../img/Checkbox.png');
                     }
                     &__cross{
@@ -95,9 +86,10 @@
                 position: absolute;
                 top: 50%;
                 left: 50%;
-                transform: translate(-50%, calc(-50% + 9.8em));
+                transform: translate(-50%, calc(-50% + 9.6em));
                 &--basic{
                     background-color: #EB476E;
+                    transform: translate(-50%, calc(-50% + 9.2em));
                 }
                 &--professional{
                     background-color: #07ACE6;
@@ -113,6 +105,8 @@
             padding-bottom: .6em;
         }
         &__offers-container{
+            width: 70%;
+            margin: 0 auto;
             display: flex;
             justify-content: center;    
             gap: 3em;
@@ -130,13 +124,17 @@
             }        
             &__offer{
                 flex: 1; 
-                margin: 1em 0;
-                padding-bottom: 26em;
+                position: relative;
                 &__left{
-                    transform: translate(-50%, calc(-50% - 8.5em));
+                    padding: 0;
+                    &__price{
+                        &--basic{
+                            padding-bottom: .3em;
+                        }
+                    }
                 }
                 &__right{
-                    transform: translate(-50%, calc(-50% + 2.5em));
+                    position: static;
                     &__container{
                         display: flex;
                         flex-direction: column;
@@ -152,7 +150,7 @@
                     }
                 }
                 &__button{
-                    transform: translate(-50%, calc(-50% + 16.8em));
+                    transform: translate(-50%, calc(-50% + 15.2em));
                 }
             }
         }

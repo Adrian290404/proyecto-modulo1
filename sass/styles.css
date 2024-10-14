@@ -418,16 +418,12 @@ html, body {
   text-align: center;
 }
 .pricing__offers-container__offer {
-  flex: 1;
-  padding: 20px;
-  box-sizing: border-box;
-  max-width: 18.3em;
-  height: 16em;
+  position: relative;
+  width: 80%;
   border: 0.0625rem solid #000000;
   border-radius: 1.125rem;
-  margin: 1em auto;
-  position: relative;
-  margin-bottom: 4em;
+  margin: 1em auto 3.4em auto;
+  padding: 1.7em 0;
 }
 .pricing__offers-container__offer--basic {
   border-color: #FB3B64;
@@ -439,10 +435,7 @@ html, body {
   border-color: #55DFB4;
 }
 .pricing__offers-container__offer__left {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(calc(-50% - 4.6em), -50%);
+  padding: 3em 40% 3em 0;
   text-align: center;
 }
 .pricing__offers-container__offer__left__title {
@@ -474,17 +467,15 @@ html, body {
 }
 .pricing__offers-container__offer__right {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(calc(-50% + 4.3em), calc(-50% - 1.6em));
+  left: 58%;
+  top: 2%;
 }
 .pricing__offers-container__offer__right__container {
   word-spacing: 2px;
-  margin-left: 1.5em;
   margin-top: 1.7em;
 }
 .pricing__offers-container__offer__right__container__check {
-  margin-top: 1.2em;
+  margin-bottom: 1.2em;
   list-style-image: url("../img/Checkbox.png");
 }
 .pricing__offers-container__offer__right__container__cross {
@@ -504,10 +495,11 @@ html, body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, calc(-50% + 9.8em));
+  transform: translate(-50%, calc(-50% + 9.6em));
 }
 .pricing__offers-container__offer__button--basic {
   background-color: #EB476E;
+  transform: translate(-50%, calc(-50% + 9.2em));
 }
 .pricing__offers-container__offer__button--professional {
   background-color: #07ACE6;
@@ -520,6 +512,8 @@ html, body {
     padding-bottom: 0.6em;
   }
   .pricing__offers-container {
+    width: 70%;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     gap: 3em;
@@ -538,14 +532,16 @@ html, body {
   }
   .pricing__offers-container__offer {
     flex: 1;
-    margin: 1em 0;
-    padding-bottom: 26em;
+    position: relative;
   }
   .pricing__offers-container__offer__left {
-    transform: translate(-50%, calc(-50% - 8.5em));
+    padding: 0;
+  }
+  .pricing__offers-container__offer__left__price--basic {
+    padding-bottom: 0.3em;
   }
   .pricing__offers-container__offer__right {
-    transform: translate(-50%, calc(-50% + 2.5em));
+    position: static;
   }
   .pricing__offers-container__offer__right__container {
     display: flex;
@@ -561,7 +557,7 @@ html, body {
     margin: 0.8em auto;
   }
   .pricing__offers-container__offer__button {
-    transform: translate(-50%, calc(-50% + 16.8em));
+    transform: translate(-50%, calc(-50% + 15.2em));
   }
 }
 
