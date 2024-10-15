@@ -1,65 +1,93 @@
 .benefits{
     background-color: #F7F7F7;
     padding-top: 3.3em;
-    padding-bottom: 7.3em;
+    padding-bottom: 2em;
     &__box{
         background-color: #FFFFFF;
         border: 0.0625rem solid #E8E9ED;
         border-radius: 0.3125rem;
         width: 90%;
         margin: 0 auto 3em auto;
-        max-height: 23em;
+        &--be-always-first{
+            padding: 2em 1em 2em 1em;
+        }
+        &--your-shop{
+            padding: 1em 1em 2em 1em;
+        }
+        &--increase{
+            background-color: transparent;
+            border: none;
+            margin: 0 auto;
+        }
         &__image-container{
-            position: relative;
+            margin: 0 auto;
             text-align: center;
+            position: relative;
+            border: none;
+            &--increase{
+                background-color: #F7F7F7;
+                border: none;
+            }
             &__image{
-                position: absolute;
-                left: 50%;  
-                &--laptop{
-                    top: 2.5em;
-                    transform: translateX(-50%);
+                position: relative;
+                z-index: 1;
+                &--phone-mobile{
+                    left: 1.5em;
                 }
-                &--phone{
-                    top: 1.2em;
-                    transform: translateX(-37%);
+                &--phone-desktop{
+                    display: none;
                 }
                 &--trumpet{
-                    top: 5vh;
-                    transform: translateX(-60%);
+                    bottom: -2em;
+                    left: -2em;
                 }
             }
             &__bg{
+                position: absolute;
                 &--red-mobile{
-                    padding: 1em 0 0 7em;
+                    top: -17%;
+                    left: 52%;
                 }
                 &--red-desktop{
                     display: none;
                 }  
                 &--blue{
-                    padding-top: .8em;
+                    top: -5%;
+                    left: 50%;
+                    transform: translateX(-50%);
                 } 
                 &--green{
                     width: 100%;
-                    max-height: 20em;
+                    max-height: 12em;
+                    top:0;
+                    left: 0;
                 }
             }
         }
         &__text-container{
-            padding: 0 1em 2em 1em;
+            &--increase{
+                background-color: #FFFFFF;
+                border: 0.0625rem solid #E8E9ED;
+                border-radius: 0.3125rem;
+                width: 100%;
+                margin: 0 auto;
+                padding: 1em 1em 2em 1em;
+            }
             &__title{
                 font-family: "Raleway", sans-serif;
                 font-weight: 400;
                 font-size: 2rem;
                 line-height: 2.1875rem;
-                padding-right: 1em;
-                padding-top: 1em;
+                width: 80%;
                 &--be-always-first{
-                    margin-top: 2em;
-                    margin-bottom: 1em;
+                    margin-top: 1em;
+                    margin-bottom: 1.5em;
                 }
                 &--your-shop{
+                    margin-top: .6em;
                     margin-bottom: .4em;
                 }
+
             }
             &__subtitle{
                 font-family: "Open Sans", sans-serif;
@@ -78,38 +106,44 @@
         }
     }
     @media only screen and (min-width: 1000px) {
-        padding-bottom: .8em;
         &__box{
-            max-width: none;
-            margin: 0 auto;
-            margin-bottom: 3.1em;
+            width: 70%;
+            padding: 4em 2em;
+            display: flex;
+            justify-content: center;
+            gap: 4em;
+            &--be-always-first{
+                flex-direction: row-reverse;
+            }
             &--increase{
-                background-color: transparent;
-                border: none;
-                display: flex;
+                padding: 0;
             }
             &__image-container{
-                &--increase{
-                    margin: 0;
-                    width: 40%;
-                    height: 100%;
-                    display: flex;
-                    justify-content: flex-end;
-                }
+                width: 70%;
+                margin: 0;
+                // &--increase{
+                //     margin: 0;
+                //     width: 40%;
+                //     height: 100%;
+                //     display: flex;
+                //     justify-content: flex-end;
+                // }
                 &__image{
-                    left: auto;
-                    transform: none;
                     &--laptop{
-                        top: 10em;
-                        right: 5em;
-                        width: 30%;
-                        max-width: 23em;
+                        top: 2.5em;
+                        left: 0em;
+                        width: 80%;
+                        max-width: 19em;
                     }
-                    &--phone{
-                        bottom: -13.5em;
-                        left: 3.5em;
-                        width: 24%;
-                        max-width: 24em;
+                    &--phone-mobile{
+                        display: none;
+                    }
+                    &--phone-desktop{
+                        display: block;
+                        top: -1em;
+                        left: 5em;
+                        width: 80%;
+                        max-width: 19em;
                     }
                     &--trumpet{
                         top: 50%;
@@ -128,16 +162,16 @@
                     } 
                     &--red-desktop{
                         display: block;
-                        bottom: -12.5em;
-                        right: 3.5em;
-                        width: 20%;
-                        max-width: 16em;
+                        top: 0;
+                        left: 50%;
+                        width: 48%;
+                        max-width: 11em;
                     } 
                     &--blue{
-                        bottom: -13.5em;
-                        left: 3.5em;
-                        width: 20%;
-                        max-width: 19em;
+                        top: -2em;
+                        left: 4em;
+                        width: 65%;
+                        max-width: 15em;
                     } 
                     &--green{
                         margin: 0;
@@ -148,57 +182,36 @@
                 }
             }
             &__text-container{
-                position: relative;
-                &--your-shop{
-                    position: absolute;
-                    right: 10em;
-                }
                 &--increase{
-                    padding-top: 2.5em;
-                    margin: 0;
-                    width: 60%;
-                    height: 100%;
-                    background-color: #FFFFFF;
-                    border: 0.0625rem solid #E8E9ED;
-                    border-radius: 0.3125rem;
+                    padding: 4em 4em 0 2em;
+                    width: 100%;
                 }
                 &__title{
-                    margin-top: -.5em;
-                    max-width: 7em;
+                    &--be-always-first{
+                        margin-bottom: 1em;
+                    }
+                    &--your-shop{
+                        margin-top: .6em;
+                        margin-bottom: .4em;
+                    }
                     &--increase{
-                        padding-top: .7em;
-                        margin-top: 0;
-                        max-width: 10em;
+                        width: 60%;
                     }
                 }
                 &__subtitle{
-                    width: 70%;
-                    max-width: 26em;
                     &--be-always-first{
                         margin-top: 2em;
                     }
-                    &--your-shop{
-                        width: 100%;
-                    }
-                    &--increase{
-                        margin: .7em 1.2em;
-                        padding-top: .7em;
-                        font-size: 1rem;
-                        line-height: 1.3125rem;
-                    }
+                    // &--increase{
+                    //     margin: .7em 1.2em;
+                    //     padding-top: .7em;
+                    //     font-size: 1rem;
+                    //     line-height: 1.3125rem;
+                    // }
                 }
                 &__line{
-                    width: 40%;
-                    max-width: 18em;
                     display: block;
-                    margin: 0 0 4em 1.3em;
-                    &--your-shop{
-                        width: 100%;
-                    }
-                    &--increase{
-                        padding-top: 1em;
-                        width: 100%;
-                    }
+                    margin-top: 2em;
                 }
             }
         }

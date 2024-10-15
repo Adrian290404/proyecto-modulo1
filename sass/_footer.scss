@@ -2,7 +2,7 @@
     box-shadow: #00000033 0px -5px 40px 0px ;
     background-color: #F7F7F7;
     position: relative;
-    padding-left: 1em;
+    padding: 1em;
     &__title{
         font-family: "Raleway", sans-serif;
         font-weight: 300;
@@ -10,7 +10,6 @@
         line-height: 1.875rem;
         word-spacing: 0.125rem;
         color: #08A6E4;
-        padding-top: 1em;
     }
     &__subtitle{
         font-family: "Raleway", sans-serif;
@@ -19,16 +18,13 @@
         line-height: 0.875rem;
         word-spacing: 0.125rem;
         color: #A5A5A5;
-        padding-bottom: 1.8em;
     }
     &__icons{
         position: absolute;
-        top: 2.1em;
-        right: 0;
+        top: 50%;
+        right: 5%;
+        transform: translateY(-50%);
             &__twitter{
-                margin-right: 1em;
-            }
-            &__facebook{
                 margin-right: 1em;
             }
     }
