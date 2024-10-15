@@ -60,9 +60,6 @@
                 }
             }
             &__right{
-                // position: absolute;
-                // left: 58%;
-                // top: 2%;
                 &__container{
                     word-spacing: 2px;
                     &__check{
@@ -124,7 +121,6 @@
                 box-shadow: 5px 10px 27px 0px #55DFB44A;
             }        
             &__offer{
-                flex: 1; 
                 position: relative;
                 flex-direction: column;
                 align-items: center;

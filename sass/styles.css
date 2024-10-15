@@ -515,7 +515,6 @@ html, body {
     box-shadow: 5px 10px 27px 0px rgba(85, 223, 180, 0.2901960784);
   }
   .pricing__offers-container__offer {
-    flex: 1;
     position: relative;
     flex-direction: column;
     align-items: center;
