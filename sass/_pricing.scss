@@ -15,7 +15,9 @@
             border: 0.0625rem solid #000000;
             border-radius: 1.125rem;
             margin: 1em auto 3.4em auto;
-            padding: 1.7em 0;
+            display: flex;
+            justify-content: space-around;
+            padding: 2em 0;
             &--basic{
                 border-color: #FB3B64;
             }
@@ -26,9 +28,10 @@
                 border-color: #55DFB4;
             }
             &__left{
-                padding: 3em 40% 3em 0;
+                width: 50%;
                 text-align: center;
                 &__title{
+                    margin-top: 2.3em;
                     font-family: "Raleway", sans-serif;
                     font-weight: 700;
                     font-size: 1.25rem;
@@ -57,18 +60,17 @@
                 }
             }
             &__right{
-                position: absolute;
-                left: 58%;
-                top: 2%;
+                // position: absolute;
+                // left: 58%;
+                // top: 2%;
                 &__container{
                     word-spacing: 2px;
-                    margin-top: 1.7em;
                     &__check{
                         margin-bottom: 1.2em;
                         list-style-image: url('../img/Checkbox.png');
                     }
                     &__cross{
-                        margin-top: 1.2em;
+                        margin-bottom: 1.2em;
                         list-style-image: url('../img/Cross.png');
                     }
                 }
@@ -89,7 +91,6 @@
                 transform: translate(-50%, calc(-50% + 9.6em));
                 &--basic{
                     background-color: #EB476E;
-                    transform: translate(-50%, calc(-50% + 9.2em));
                 }
                 &--professional{
                     background-color: #07ACE6;
@@ -109,7 +110,7 @@
             margin: 0 auto;
             display: flex;
             justify-content: center;    
-            gap: 3em;
+            gap: 5em;
             &__offer--basic:hover{
                 transform: scale(1.1);
                 box-shadow: 5px 10px 27px 0px #EB476E4A;
@@ -125,16 +126,22 @@
             &__offer{
                 flex: 1; 
                 position: relative;
+                flex-direction: column;
+                align-items: center;
                 &__left{
-                    padding: 0;
+                    margin-bottom: 2em;
+                    &__title{
+                        margin: 0;
+                    }
                     &__price{
                         &--basic{
-                            padding-bottom: .3em;
+                            margin-bottom: .3em;
                         }
                     }
                 }
                 &__right{
                     position: static;
+                    margin-bottom: 2em;
                     &__container{
                         display: flex;
                         flex-direction: column;
@@ -150,7 +157,7 @@
                     }
                 }
                 &__button{
-                    transform: translate(-50%, calc(-50% + 15.2em));
+                    transform: translate(-50%, calc(-50% + 17.2em));
                 }
             }
         }
