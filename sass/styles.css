@@ -216,19 +216,10 @@ html, body {
 .benefits__box--your-shop {
   padding: 1em 1em 2em 1em;
 }
-.benefits__box--increase {
-  background-color: transparent;
-  border: none;
-  margin: 0 auto;
-}
 .benefits__box__image-container {
   margin: 0 auto;
   text-align: center;
   position: relative;
-  border: none;
-}
-.benefits__box__image-container--increase {
-  background-color: #F7F7F7;
   border: none;
 }
 .benefits__box__image-container__image {
@@ -244,6 +235,7 @@ html, body {
 .benefits__box__image-container__image--trumpet {
   bottom: -2em;
   left: -2em;
+  margin-bottom: -2em;
 }
 .benefits__box__image-container__bg {
   position: absolute;
@@ -261,17 +253,13 @@ html, body {
   transform: translateX(-50%);
 }
 .benefits__box__image-container__bg--green {
+  padding-bottom: 0;
   width: 100%;
-  max-height: 12em;
+  height: 12em;
   top: 0;
   left: 0;
 }
 .benefits__box__text-container--increase {
-  background-color: #FFFFFF;
-  border: 0.0625rem solid #E8E9ED;
-  border-radius: 0.3125rem;
-  width: 100%;
-  margin: 0 auto;
   padding: 1em 1em 2em 1em;
 }
 .benefits__box__text-container__title {
@@ -316,10 +304,18 @@ html, body {
   }
   .benefits__box--increase {
     padding: 0;
+    background-color: transparent;
+    border: none;
+    height: 100%;
   }
   .benefits__box__image-container {
-    width: 70%;
+    width: 50%;
     margin: 0;
+  }
+  .benefits__box__image-container--increase {
+    padding: 0;
+    margin: 0;
+    max-height: none !important;
   }
   .benefits__box__image-container__image--laptop {
     top: 2.5em;
@@ -338,11 +334,9 @@ html, body {
     max-width: 19em;
   }
   .benefits__box__image-container__image--trumpet {
-    top: 50%;
-    left: 50%;
-    transform: translate(calc(-50% + 1em), calc(-50% + 2em));
-    width: 80%;
-    max-width: 23em;
+    bottom: -3em;
+    left: 0em;
+    width: 90%;
   }
   .benefits__box__image-container__bg {
     top: auto;
@@ -367,13 +361,18 @@ html, body {
   }
   .benefits__box__image-container__bg--green {
     margin: 0;
-    width: 90%;
+    width: 100%;
     height: 100%;
-    position: relative;
+    top: 0;
+    left: 0;
   }
   .benefits__box__text-container--increase {
-    padding: 4em 4em 0 2em;
+    margin: 0;
+    background-color: #FFFFFF;
+    border: 0.0625rem solid #E8E9ED;
+    border-radius: 0.3125rem;
     width: 100%;
+    padding: 4em 0 4em 1em;
   }
   .benefits__box__text-container__title--be-always-first {
     margin-bottom: 1em;
@@ -383,10 +382,19 @@ html, body {
     margin-bottom: 0.4em;
   }
   .benefits__box__text-container__title--increase {
-    width: 60%;
+    width: 42%;
+    margin-bottom: 1em;
+  }
+  .benefits__box__text-container__subtitle {
+    width: 80%;
   }
   .benefits__box__text-container__subtitle--be-always-first {
     margin-top: 2em;
+  }
+  .benefits__box__text-container__subtitle--increase {
+    margin-bottom: 3em;
+    font-size: 1rem;
+    line-height: 1.3125rem;
   }
   .benefits__box__text-container__line {
     display: block;
