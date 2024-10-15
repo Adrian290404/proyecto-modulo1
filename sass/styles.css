@@ -337,6 +337,7 @@ html, body {
     bottom: -3em;
     left: 0em;
     width: 90%;
+    max-width: 20em;
   }
   .benefits__box__image-container__bg {
     top: auto;
