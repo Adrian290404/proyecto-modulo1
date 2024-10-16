@@ -129,7 +129,7 @@ html, body {
 .why-us {
   background-color: white;
   text-align: center;
-  padding-bottom: 1.5em;
+  padding-bottom: 4em;
 }
 .why-us__title {
   font-family: "Raleway", sans-serif;
@@ -139,6 +139,9 @@ html, body {
   color: #000000;
   width: 70%;
   margin: 0 auto;
+}
+.why-us--information-container {
+  padding: 0;
 }
 .why-us__information__image-container {
   position: relative;
