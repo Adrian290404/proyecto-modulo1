@@ -17,7 +17,7 @@
             margin: 1em auto 3.4em auto;
             display: flex;
             justify-content: space-around;
-            padding: 2em 0;
+            padding: 2em 0 1em 0;
             &--basic{
                 border-color: #FB3B64;
             }
@@ -30,6 +30,7 @@
             &__left{
                 width: 50%;
                 text-align: center;
+                margin-bottom: 3em;
                 &__title{
                     margin-top: 2.3em;
                     font-family: "Raleway", sans-serif;
@@ -60,15 +61,19 @@
                 }
             }
             &__right{
+                font-family: "Open Sans", sans-serif;
+                font-weight: 400;
+                font-size: 0.875rem;
+                line-height: 1.1875rem;
                 &__container{
-                    word-spacing: 2px;
+                    word-spacing: 0.125rem;
                     &__check{
-                        margin-bottom: 1.2em;
                         list-style-image: url('../img/Checkbox.png');
+                        padding-bottom: 1em;
                     }
                     &__cross{
-                        margin-bottom: 1.2em;
                         list-style-image: url('../img/Cross.png');
+                        padding-bottom: 1em;
                     }
                 }
             }
@@ -85,9 +90,10 @@
                 position: absolute;
                 top: 50%;
                 left: 50%;
-                transform: translate(-50%, calc(-50% + 9.6em));
+                transform: translate(-50%, calc(-50% + 9.2em));
                 &--basic{
                     background-color: #EB476E;
+                    transform: translate(-50%, calc(-50% + 8.7em));
                 }
                 &--professional{
                     background-color: #07ACE6;
@@ -99,9 +105,6 @@
         }
     }
     @media only screen and (min-width: 1000px) {
-        &__title{
-            margin-bottom: .6em;
-        }
         &__offers-container{
             width: 70%;
             margin: 0 auto;
@@ -124,6 +127,7 @@
                 position: relative;
                 flex-direction: column;
                 align-items: center;
+                margin-top: 2em;
                 &__left{
                     margin-bottom: 2em;
                     &__title{
@@ -144,16 +148,16 @@
                         justify-content: center;
                         &__check{
                             list-style-image: url('../img/Checkbox.png');
-                            margin: .8em auto;
+                            margin: .2em auto;
                         }
                         &__cross{
                             list-style-image: url('../img/Cross.png');
-                            margin: .8em auto;
+                            margin: .2em auto;
                         }
                     }
                 }
                 &__button{
-                    transform: translate(-50%, calc(-50% + 17.2em));
+                    transform: translate(-50%, calc(-50% + 15.4em));
                 }
             }
         }

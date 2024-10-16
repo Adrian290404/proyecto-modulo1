@@ -424,7 +424,7 @@ html, body {
   margin: 1em auto 3.4em auto;
   display: flex;
   justify-content: space-around;
-  padding: 2em 0;
+  padding: 2em 0 1em 0;
 }
 .pricing__offers-container__offer--basic {
   border-color: #FB3B64;
@@ -438,6 +438,7 @@ html, body {
 .pricing__offers-container__offer__left {
   width: 50%;
   text-align: center;
+  margin-bottom: 3em;
 }
 .pricing__offers-container__offer__left__title {
   margin-top: 2.3em;
@@ -467,16 +468,22 @@ html, body {
   font-size: 0.75rem;
   line-height: 0.875rem;
 }
+.pricing__offers-container__offer__right {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.1875rem;
+}
 .pricing__offers-container__offer__right__container {
-  word-spacing: 2px;
+  word-spacing: 0.125rem;
 }
 .pricing__offers-container__offer__right__container__check {
-  margin-bottom: 1.2em;
   list-style-image: url("../img/Checkbox.png");
+  padding-bottom: 1em;
 }
 .pricing__offers-container__offer__right__container__cross {
-  margin-bottom: 1.2em;
   list-style-image: url("../img/Cross.png");
+  padding-bottom: 1em;
 }
 .pricing__offers-container__offer__button {
   font-family: "Open Sans", sans-serif;
@@ -491,10 +498,11 @@ html, body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, calc(-50% + 9.6em));
+  transform: translate(-50%, calc(-50% + 9.2em));
 }
 .pricing__offers-container__offer__button--basic {
   background-color: #EB476E;
+  transform: translate(-50%, calc(-50% + 8.7em));
 }
 .pricing__offers-container__offer__button--professional {
   background-color: #07ACE6;
@@ -503,9 +511,6 @@ html, body {
   background-color: #55DFB4;
 }
 @media only screen and (min-width: 1000px) {
-  .pricing__title {
-    margin-bottom: 0.6em;
-  }
   .pricing__offers-container {
     width: 70%;
     margin: 0 auto;
@@ -529,6 +534,7 @@ html, body {
     position: relative;
     flex-direction: column;
     align-items: center;
+    margin-top: 2em;
   }
   .pricing__offers-container__offer__left {
     margin-bottom: 2em;
@@ -550,14 +556,14 @@ html, body {
   }
   .pricing__offers-container__offer__right__container__check {
     list-style-image: url("../img/Checkbox.png");
-    margin: 0.8em auto;
+    margin: 0.2em auto;
   }
   .pricing__offers-container__offer__right__container__cross {
     list-style-image: url("../img/Cross.png");
-    margin: 0.8em auto;
+    margin: 0.2em auto;
   }
   .pricing__offers-container__offer__button {
-    transform: translate(-50%, calc(-50% + 17.2em));
+    transform: translate(-50%, calc(-50% + 15.4em));
   }
 }
 
